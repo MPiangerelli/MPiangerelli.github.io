@@ -8,7 +8,7 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 ## University of Camerino
-
+Pippo Pippo Pippo
 
 
 ### Publications
@@ -16,12 +16,11 @@ output:
 
 ### Memorial Sloan Kettering Cancer Center
 
-At Memorial Sloan Kettering Cancer Center I spent six years collaborating on research projects in genito-urinary cancers, with an emphasis on genetic predictors of patient outcomes. Since then I have worked with the breast surgery service on research comparing patient outcomes according to different treatment strategies. I have also collaborated closely with epidemiologists on research related to smoking and bladder cancer and with health outcomes researchers on long-term outcomes following treatment for lymphoma.
 
 ### Selected publications
 
 
 
-## [ResearchGates](https://scholar.google.com/citations?user=tLbQTZMAAAAJ&hl=en)
+## [ResearchGate](https://www.researchgate.net/profile/Marco_Piangerelli)
 
 A full list of publications is available at the above Google scholar link.
