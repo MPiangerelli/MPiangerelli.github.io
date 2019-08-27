@@ -1,4 +1,4 @@
-name: "Marco Piangrelli"
+name: "Marco Piangerelli"
 output_dir: "."
 navbar:
   title: "Marco Piangerelli"
@@ -15,11 +15,11 @@ navbar:
     - icon: fa-envelope fa-lg
       href: contact.html
     - icon: fa-github fa-lg
-      href: http://github.com/zabore
+      href: http://github.com/MPiangerelli
     - icon: fa-twitter fa-lg
-      href: https://twitter.com/zabormetrics
+      href: https://twitter.com/MPiangerelli
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/emily-zabor-59b902b7/
+      href: https://www.linkedin.com/in/MPiangerelli/
 output:
   html_document:
     theme: paper
