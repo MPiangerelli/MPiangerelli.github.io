@@ -1,9 +1,21 @@
 ---
 title: Welcome to my website
 layout: page
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: ![] immagine_lignani.jpg
 feature_text: |
   ## Hello world
 ---
 
-There isn't much going on here yet, but watch this space
+
+
+
+
+
+<img src="marco_copia.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
+I graduated from the [University of Bologna](https://unibo.it) with a MS in bioengineering in 2013. In 2013 I began working my PHD in Computer Science at [University of Camerino](https://computerscience.unicam.it) under the supervision of Prof.ssa [Emanuela Merelli](www.emanuelamerelli.eu)
+
+
+
+My full CV is available [here](/europass_en.pdf).
+
