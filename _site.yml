@@ -1,16 +1,12 @@
-name: "Marco Piangerelli"
-output_dir: "."
+name: "my-website"
 navbar:
-  title: "Marco Piangerelli"
+  title: "My Website"
   left:
-    - text: "Writing"
-      href: research.html
-    - text: "Speaking"
-      href: talks.html
-    - text: "Programming"
-      href: software.html
-    - text: "Teaching"
-      href: teaching.html
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+      
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
@@ -22,5 +18,8 @@ navbar:
       href: https://www.linkedin.com/in/MPiangerelli/
 output:
   html_document:
-    theme: paper
-    css: 'styles.css'
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
