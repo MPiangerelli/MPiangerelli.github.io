@@ -1,4 +1,4 @@
-name: "my-website"
+name: "Marco Piangerelli"
 navbar:
   title: "Marco Piangerelli"
   left:
@@ -21,4 +21,4 @@ output:
     theme: cosmo
     highlight: textmate
     
-    css: styles.css
+    css: style.css
