@@ -2,11 +2,7 @@ remote_theme: daviddarnes/alembic
 
 # Set theme
 
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
+
 
     
   # 2. Installed Gems
