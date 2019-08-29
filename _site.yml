@@ -2,6 +2,7 @@ name: "Marco Piangerelli"
 #output_dir: "."
 navbar:
   title: "Marco Piangerelli"
+  type: inverse
   left:
     - text: "Research"
       href: research.html
