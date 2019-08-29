@@ -1,7 +1,7 @@
 ---
 title: Welcome to my website
 layout: page
-feature_image: ![] amalassunta.jpg
+feature_image: ![] pollock1.jpg
 feature_text: |
   ## Hello world
 ---
@@ -17,5 +17,5 @@ I graduated from the [University of Bologna](https://www.unibo.it) with a MS in 
 
 
 
-My full CV is available [here](europass_en.pdf).
+My full CV is available [here](europasscv_en.pdf).
 
