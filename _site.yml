@@ -1,12 +1,16 @@
 name: "Marco Piangerelli"
+#output_dir: "."
 navbar:
   title: "Marco Piangerelli"
   left:
-  
-    - text: "Home"
-      href: index.html
-    - text: "About"
+    - text: "Research"
       href: research.html
+    - text: "Speaking"
+      href: talks.html
+    - text: "Programming"
+      href: software.html
+    - text: "Teaching"
+      href: teaching.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
@@ -19,6 +23,4 @@ navbar:
 output:
   html_document:
     theme: cosmo
-    highlight: textmate
-    
-    css: style.css
+    css: 'styles.css'
