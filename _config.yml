@@ -20,12 +20,12 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
+url: 'https://marcopiangerelli.it'
 baseurl: ''
 title: 'My website'
 description: 'This is my new website'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: ![] unicam_logo_bianco.png
 
 # Pagination
 paginate: 5
@@ -39,11 +39,20 @@ navigation_header:
   url: /about/
 - title: Blog
   url: /blog/
+- title: Research
+  url: /research/
 
 # Footer nav
 navigation_footer:
 - title: Back to top
   url: "#top"
+  
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  Twitter: https://twitter.com/DavidDarnes
+  LinkedIn: https://www.linkedin.com/in/daviddarnes
+  GitHub: https://github.com/daviddarnes
+  link: https://darn.es
+  RSS: /feed.xml
 
 # Collections
 collections:
