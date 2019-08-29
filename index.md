@@ -1,7 +1,7 @@
 ---
 title: Welcome to my website
 layout: page
-feature_image: ![] amalassunta
+feature_image: ![] amalassunta.jpg
 feature_text: |
   ## Hello world
 ---
