@@ -2,6 +2,7 @@
 
 layout: page
 title: Research Interest
+logo: ![] unicam_logo_bianco.png
 
 ---
 
