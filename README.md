@@ -1,22 +1,9 @@
----
-title: Welcome to my website
-layout: page
-feature_image: ![] marco_copia.jpg
-feature_text: |
-  ## Wellcome
----
+# Starter kit for [Alembic](https://alembic.darn.es/)
 
+This is a very simple starting point if you wish to use Alembic [as a Jekyll theme gem](https://alembic.darn.es/#as-a-jekyll-theme) or as a [GitHub Pages remote theme](https://github.com/daviddarnes/alembic-kit/tree/remote-theme) (see `remote-theme` branch).
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit)
 
-<link rel="stylesheet" href="styles.css" type="text/css">
+or
 
-<img src="marco_copia.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
-
-
-I graduated from the [University of Bologna](https://www.unibo.it) with a MS in bioengineering in 2013. In 2013 I began working my PHD in Computer Science at [University of Camerino](https://computerscience.unicam.it) under the supervision of Prof.ssa [Emanuela Merelli](http://www.emanuelamerelli.eu)
-
-
-
-My full CV is available [here](europasscv_en.pdf).
-
-
+**[Download the GitHub Pages kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
