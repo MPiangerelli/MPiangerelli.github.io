@@ -3,7 +3,7 @@ title: Welcome to my website
 layout: page
 feature_image: ![] pollock1.jpg
 feature_text: |
-  ## Hello world
+  ## Wellcome
 ---
 
 
