@@ -1,1 +1,22 @@
-theme: jekyll-theme-time-machine
+# Set theme
+theme: alembic-jekyll-theme
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+    
+  # 2. Installed Gems
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
