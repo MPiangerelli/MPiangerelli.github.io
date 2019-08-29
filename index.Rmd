@@ -1,5 +1,13 @@
 ---
 ---
+title: Welcome to my website
+layout: page
+feature_image: ![] marco_copia.jpg
+feature_text: |
+  ## Hello world
+---
+
+---
 
 
 
