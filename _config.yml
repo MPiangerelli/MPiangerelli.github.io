@@ -2,8 +2,8 @@ remote_theme: daviddarnes/alembic
 
 # Set theme
 
-#exclude:
-#- README.md
+exclude:
+- README.md
 
     
   # 2. Installed Gems
