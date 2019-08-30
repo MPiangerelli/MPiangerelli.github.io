@@ -2,11 +2,11 @@
 
 layout: page
 title: Research Interest
-feature_image: "/IMG.jpg"
+feature_image: "/boccioni.jpgI"
 
 ---
 
-
+<!--MG.jpg-->
 
 My primary research field is unsupervised learning and data science, particularly in the field of complex systems dynamics.
 My goal is to build out a theory to provide new approaches to clustering and anomaly detection by applying topological methods (TDA) thus providing a
