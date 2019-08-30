@@ -15,5 +15,5 @@ I graduated from the [University of Bologna](https://www.unibo.it) with a MS in 
 
 My full CV is available [here](europasscv_en.pdf).
 
-{% include icon.html id="twitter" title="twitter" %} {% include icon.html id="linkedin" title="twitter" %}
+{% include icon.html id="twitter" title="twitter" link="https://twitter.com/MPiangerelli %} {% include icon.html id="linkedin" title="twitter" %}
 
