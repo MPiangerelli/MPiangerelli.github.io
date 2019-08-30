@@ -2,13 +2,12 @@
 
 layout: page
 title: Research Interest
-logo: "/unicam_logo_bianco.png"
+image: "/"
 
 ---
 
-<link rel="stylesheet" href="styles.css" type="text/css">
 
-## University of Camerino
+
 My primary research field is unsupervised learning and data science, particularly in the field of complex systems dynamics.
 
 My application domain mainly concerns the medical and biological field (in my PhD thesis I focused on the study of epilepsy and on the analysis of EEG traces) where I am experimenting with new techniques of data analysis such as Topological Data Analysis (TDA) especially for time series analysis.
