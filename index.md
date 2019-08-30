@@ -4,6 +4,8 @@ title: Wellcome to the Marco Piangerelli website
 layout: page
 feature_image: /IMG_20190429_193147.jpg
 excerpt: "Wellcome to the Marco Piangerelli website"
+aside: true 
+
 ---
 
 
