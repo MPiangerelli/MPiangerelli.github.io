@@ -1,13 +1,10 @@
 ---
 title: Welcome to my website
 layout: page
-feature_image: "pollock1.jpg"
+feature_image: "https://picsum.photos/2560/600?image=866"
 
 ---
 
-
-
-<img src="pollock1.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
 
 <img src="marco_copia.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
