@@ -53,7 +53,7 @@ defaults:
 
 # Site settings
 url: 'https://marcopiangerelli.it'
-baseurl: ''
+baseurl: 'https://github.com/MPiangerelli/MPiangerelli.github.io/edit/master'
 title: 'My website'
 description: 'This is my new website'
 permalink: pretty
