@@ -24,6 +24,6 @@ I am also interested in more purely educational aspects and I participated in th
 
 
 
-#### [ResearchGate](https://www.researchgate.net/profile/Marco_Piangerelli)
+#### [ResearchGate](https://www.researchgate.net/profile/Marco_Piangerelli/research)
 
 A full list of publications is available at the above Google ReserchGate link.
