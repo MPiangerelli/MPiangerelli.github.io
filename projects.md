@@ -1,6 +1,8 @@
----
+----
+
 title: Projects
-layout:page
+layout: page
+feature_image: "/"
 
 ---
 [Da.Re.](https://dare-project.eu)
