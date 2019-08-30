@@ -7,7 +7,7 @@ image: "/"
 ---
 
 
-
+will begin by using topological methods to construct a new approach to dimension reduction, and then build out the theory to provide new approaches to clustering and anomaly detection. Our goal is to provide a unified topological approach to unsupervised learning.
 My primary research field is unsupervised learning and data science, particularly in the field of complex systems dynamics.
 
 My application domain mainly concerns the medical and biological field (in my PhD thesis I focused on the study of epilepsy and on the analysis of EEG traces) where I am experimenting with new techniques of data analysis such as Topological Data Analysis (TDA) especially for time series analysis.
