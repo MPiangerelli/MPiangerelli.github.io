@@ -1,7 +1,7 @@
 ---
 title: Wellcome to the Marco Piangerelli website
 layout: page
-feature_image: /animated-tech-background-3.jpg
+feature_image: /IMG_20190429_193147.jpg
 
 ---
 
