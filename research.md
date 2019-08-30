@@ -14,7 +14,7 @@ new approach to Topology-based unsupervised learning.
 
 My application domain mainly concerns the medical and biological field (in my PhD thesis I focused on the study of epilepsy and on the analysis of EEG traces). I especially use data represented as time series.
 
-I am also interested in more purely educational aspects and I participated in the Erasmus+ [Da.Re](https://www.dare-project.eu) where a European curriculum was proposed for a master's degree in Data Science.
+I am also interested in more purely educational aspects and I participated in the Erasmus+ Project,[Da.Re](https://www.dare-project.eu), where a European curriculum was proposed for a master's degree in Data Science.
 
 
 
