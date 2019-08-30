@@ -22,6 +22,7 @@ plugins:
 - jemoji
 
 
+
 # 3. Gem settings
 paginate: 5 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
@@ -42,7 +43,13 @@ social: # jekyll-seo-tag > social overrides
   # extensions: ["strikethrough", "autolink", "table"]
 
 
-
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: "/assets/default-social-image.png" # Default image for sharing
 
 # Site settings
 url: 'https://marcopiangerelli.it'
@@ -92,6 +99,8 @@ navigation_header:
   url: /blog/
 - title: Research
   url: /research/
+- title: Teaching
+  url: /teaching/
 
 
 
