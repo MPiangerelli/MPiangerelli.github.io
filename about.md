@@ -1,15 +1,14 @@
 ---
 title: Welcome to my website
 layout: page
-feature_image: ![] pollock1.jpg
-feature_text: |
-  ## Wellcome
+feature_image: "pollock1.jpg"
+
 ---
 
 
 
 
-
+![] pollock1.jpg"
 
 <img src="marco_copia.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
