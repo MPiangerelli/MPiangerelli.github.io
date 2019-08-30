@@ -7,8 +7,8 @@ feature_image: "pollock1.jpg"
 
 
 
+<img src="pollock1.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-![] pollock1.jpg
 
 <img src="marco_copia.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
