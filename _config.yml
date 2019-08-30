@@ -95,14 +95,14 @@ navigation_header:
   url: /
 - title: About
   url: /about/
-- title: Blog
-  url: /blog/
 - title: Research
   url: /research/
 - title: Teaching
   url: /teaching/
 - title: Interests
   url: /interests/
+- title: Blog
+  #url: /blog/
 
 
 
