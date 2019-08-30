@@ -1,7 +1,7 @@
 ---
 title: Welcome to my website
 layout: page
-feature_image: "https://github.com/MPiangerelli/MPiangerelli.github.io/blob/master/marco_copia.jpg"
+feature_image: "/marco_copia.jpg"
 
 ---
 
