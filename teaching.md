@@ -7,7 +7,9 @@ feature_image: "/pollock1.jpg"
 
 
 
-
-### Algoritmi e strutture dati - Lab a.y. 2017/2018
-### Machine Learning a.y. 2018/2019
-   - [Website of the course](https://unicam.cs.it)
+## 2017/2018
+#### Algoritmi e strutture dati - Lab 
+   -[Website of the course](http://didattica.cs.unicam.it/doku.php?id=didattica:triennale:asd:ay_1718:lab)
+## 2018/2019   
+#### Machine Learning
+   - [Website of the course](http://didattica.cs.unicam.it/doku.php?id=didattica:magistrale:ml:ay_1819:main)
