@@ -1,7 +1,7 @@
 ---
 title: Wellcome to the Marco Piangerelli website
 layout: page
-feature_image: "pollock1.jpg"
+feature_image: /animated-tech-background-3.jpg
 
 ---
 
