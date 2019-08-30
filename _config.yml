@@ -114,10 +114,10 @@ navigation_footer:
   
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/MPiangerelli
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
-  RSS: /feed.xml
+  LinkedIn: https://www.linkedin.com/in/marco-piangerelli-08392768/
+  GitHub: https://github.com/MPiangerelli
+  #link: https://darn.es
+  #RSS: /feed.xml
 
 # Collections
 collections:
