@@ -95,7 +95,8 @@ navigation_header:
   url: /
 - title: About
   url: /about/
-   - Pippo
+   - title: Pippo
+     url: /pippo/
 - title: Blog
   url: /blog/
 - title: Research
