@@ -1,7 +1,7 @@
 ---
 title: Welcome to my website
 layout: page
-feature_image: ![image] marco_copia.jpg
+feature_image: <img src="marco_copia.jpg">
 
 ---
 
