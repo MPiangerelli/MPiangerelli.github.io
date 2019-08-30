@@ -1,5 +1,5 @@
 ---
-title: Welcome to my website
+title: Wellcome to the Marco Piangerelli website
 layout: page
 feature_image: "pollock1.jpg"
 
