@@ -2,7 +2,7 @@
 
 layout: page
 title: Research Interest
-image: "/IMG_20190218_063623 copia.jpg"
+feature_image: "/IMG_20190218_063623 copia.jpg"
 
 ---
 
