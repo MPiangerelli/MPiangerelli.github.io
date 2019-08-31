@@ -42,6 +42,12 @@ social: # jekyll-seo-tag > social overrides
   # options: ["SMART", "FOOTNOTES"]
   # extensions: ["strikethrough", "autolink", "table"]
 
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Europe/London # Timezone for blog posts and alike
 
 # 6. Jekyll collections settings
 defaults:
@@ -52,12 +58,12 @@ defaults:
       image: "unicam_logo_bianco.png" # Default image for sharing
 
 # Site settings
-url: 'https://marcopiangerelli.it'
-baseurl: 'https://github.com/MPiangerelli/MPiangerelli.github.io/edit/master'
-title: 'My website'
-description: ''
-permalink: pretty
-logo: "unicam_logo_bianco.png"
+#url: 'https://marcopiangerelli.it'
+#baseurl: 'https://github.com/MPiangerelli/MPiangerelli.github.io/edit/master'
+#title: 'My website'
+#description: ''
+#permalink: pretty
+#logo: "unicam_logo_bianco.png"
 
 
 
@@ -68,7 +74,7 @@ title: "Marco Piangerelli" # Site name or title, also used in jekyll-seo-tag
 logo: "/unicam_logo_bianco.png" # Site logo, also used in jekyll-seo-tag
 description: "Computer Science Division & Math Division, Polo 'Carla Lodovici', via Madonna delle Carceri, 7" # Site description and default description, also used in jekyll-seo-tag
 url: "https://marcopiangerelli.it/" # Site url, also used in jekyll-seo-tag
-baseurl: ""
+baseurl: "https://github.com/MPiangerelli/MPiangerelli.github.io/edit/master"
 repo: "https://github.com/MPiangerelli/MPiangerelli.github.io"
 email: "marco.piangerelli-at-unicam.it"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
@@ -110,9 +116,13 @@ navigation_header:
 
 
 # Footer nav
+#navigation_footer:
+#- title: Back to top
+#  url: "#top"
+  
 navigation_footer:
-- title: Back to top
-  url: "#top"
+- title: Adapted from Alembic theme
+  url: https://alembic.darn.es/
   
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/MPiangerelli
