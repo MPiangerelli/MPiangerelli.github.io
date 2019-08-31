@@ -58,12 +58,12 @@ defaults:
       image: "unicam_logo_bianco.png" # Default image for sharing
 
 # Site settings
-#url: 'https://marcopiangerelli.it'
-#baseurl: 'https://github.com/MPiangerelli/MPiangerelli.github.io/edit/master'
-#title: 'My website'
-#description: ''
-#permalink: pretty
-#logo: "unicam_logo_bianco.png"
+url: 'https://marcopiangerelli.it'
+baseurl: 'https://github.com/MPiangerelli/MPiangerelli.github.io/edit/master'
+title: 'My website'
+description: ''
+permalink: pretty
+logo: "unicam_logo_bianco.png"
 
 
 
