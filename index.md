@@ -12,3 +12,5 @@ Computer Science Division & Math Division <br>
 Polo 'Carla Lodovici' <br>
 via Madonna delle Carceri 7 <br>
 marco[dot]piangerelli[at]unicam[dot]it
+
+{% include button.html text="Github" icon="github" link="https://github.com/MPiangerelli/" color="#0366d6" %} {% include button.html text="Twitter" icon="twitter" link="https://twitter.com/MPiangerelli" color="#0d94e7" %} {% include button.html text="LinkedIn" icon="linkedin" link="https://www.linkedin.com/in/marco-piangerelli-08392768/" color="#0d94e7" %} {% include button.html text="RG" icon="ResearchGate" link="https://www.researchgate.net/profile/Marco_Piangerelli/research" color="#48d1cc" %}
