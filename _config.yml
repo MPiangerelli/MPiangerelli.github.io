@@ -66,7 +66,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Alembic" # Site name or title, also used in jekyll-seo-tag
 logo: "/unicam_logo_bianco.png" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "Computer Science Division & Math Division, Plo "Carla Lodovici", via Madonna delle Carceri, 7# Site description and default description, also used in jekyll-seo-tag
 url: "https://github.com/MPiangerelli/MPiangerelli.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"
@@ -118,6 +118,7 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
   Twitter: https://twitter.com/MPiangerelli
   LinkedIn: https://www.linkedin.com/in/marco-piangerelli-08392768/
   GitHub: https://github.com/MPiangerelli
+  Orcid: https://orcid.org/0000-0002-8545-3740
   #link: https://darn.es
   #RSS: /feed.xml
 
