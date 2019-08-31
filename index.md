@@ -8,9 +8,10 @@ aside: false
 
 ---
 
-<p>Computer Science Division & Math Division<br>
-<p>Polo 'Carla Lodovici' <br>
-<p>via Madonna delle Carceri 7 </p>
+Computer Science Division & Math Division<br>
+Polo 'Carla Lodovici' <br>
+via Madonna delle Carceri 7
+marco[dot]piangerelli[at]unicam[dot]it
 
 <!--IMG_20190429_193147.jpg-->
 
