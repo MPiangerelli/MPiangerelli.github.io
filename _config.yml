@@ -67,10 +67,10 @@ lang: en-GB # Set the site language
 title: "Marco Piangerelli" # Site name or title, also used in jekyll-seo-tag
 logo: "/unicam_logo_bianco.png" # Site logo, also used in jekyll-seo-tag
 description: "Computer Science Division & Math Division, Polo 'Carla Lodovici', via Madonna delle Carceri, 7" # Site description and default description, also used in jekyll-seo-tag
-url: "https://github.com/MPiangerelli/MPiangerelli.github.io" # Site url, also used in jekyll-seo-tag
+url: "https://marcopiangerelli.it/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
-email: "marco.piangerelli@gmail.com"
+repo: "https://github.com/MPiangerelli/MPiangerelli.github.io"
+email: "marco.piangerelli-at-unicam.it"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
 # google_analytics_anonymize_ip: ''
@@ -119,6 +119,8 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
   LinkedIn: https://www.linkedin.com/in/marco-piangerelli-08392768/
   GitHub: https://github.com/MPiangerelli
   Orcid: https://orcid.org/0000-0002-8545-3740
+  researcherid: https://publons.com/researcher/1938765/marco-piangerelli/
+  researchgate: https://www.researchgate.net/profile/Marco_Piangerelli
   #link: https://darn.es
   #RSS: /feed.xml
 
