@@ -8,8 +8,8 @@ aside: false
 
 ---
 
-<p>Computer Science Division & Math Division</p>
-<p>Polo 'Carla Lodovici' </p>
+<p>Computer Science Division & Math Division<br>
+<p>Polo 'Carla Lodovici' <br>
 <p>via Madonna delle Carceri 7 </p>
 
 <!--IMG_20190429_193147.jpg-->
