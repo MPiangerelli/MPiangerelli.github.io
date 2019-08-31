@@ -1,6 +1,6 @@
 ---
 
-title: Welcome to the Marco Piangerelli website
+title: Marco Piangerelli's website
 layout: page
 feature_image: /carlo_carracc80_funerali-dell-anarchico-galli_futurismo_riassunto_due-minuti-di-arte1.jpg
 excerpt: "Welcome to the Marco Piangerelli website"
