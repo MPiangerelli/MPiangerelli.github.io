@@ -6,8 +6,8 @@ feature_image: "/Giacomo-Balla-Forze-di-paesaggio-+-cocomero-1917-1918-tempera-s
 
 ---
 
-- MATREND Project
-- Progetto Lignani
+- MATREND 
+- Lignani
 - [Da.Re.](http://dare-project.eu)
 
 <a href="https://youtu.be/kcZ2k14EPvM" target="_blank"><img src="http://img.youtube.com/vi/kcZ2k14EPvE.jpg"
