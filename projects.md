@@ -10,9 +10,6 @@ feature_image: "/Giacomo-Balla-Forze-di-paesaggio-+-cocomero-1917-1918-tempera-s
 - [Lignani](https://progettolignani.netlify.com)
 - [Da.Re.](http://dare-project.eu)
 
-<a href="https://youtu.be/kcZ2k14EPvM" target="_blank"><img src="http://img.youtube.com/vi/kcZ2k14EPvE.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
 
 {% include video.html id="kcZ2k14EPvM" %}
 
