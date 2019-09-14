@@ -110,7 +110,7 @@ navigation_header:
 - title: Interests
   url: /interests/
 - title: Lignani
-  url: /https://progettolignani.netlify.com
+  url: https://progettolignani.netlify.com
 - title: Blog
   #url: /blog/
 
