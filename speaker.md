@@ -1,6 +1,8 @@
-----
+---
 
-layout: page 
-title: Speaker
+title: Teachings
+layout: page
+feature_image: "/merc.jpg"
 
-----
+
+---
