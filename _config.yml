@@ -110,7 +110,7 @@ navigation_header:
 - title: Dissemination
   url: /speaker/
   - subtitle: Invited Speaker
-  - url: /speaker/
+    url: /speaker/
 - title: Interests
   url: /interests/
 #- title: Lignani
