@@ -107,8 +107,9 @@ navigation_header:
   url: /teaching/
 - title: Projects
   url: /projects/
-- title: Speaker
+- title: Dissemination
   url: /speaker/
+  - subtitle: Invited Speaker
 - title: Interests
   url: /interests/
 #- title: Lignani
