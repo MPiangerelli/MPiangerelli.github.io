@@ -1,7 +1,7 @@
 ---
 title: Teachings@Unicam
 layout: page
-feature_image: "/materia.jpg" , "Materia, Umberto Boccioni"
+feature_image: "/materia.jpg" 
 excerpt: "Category index"
 ---
 
