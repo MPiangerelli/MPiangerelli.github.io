@@ -16,7 +16,7 @@ feature_image: "/Giacomo-Balla-Forze-di-paesaggio-+-cocomero-1917-1918-tempera-s
 - [T.R.E.E.](https://opencoesione.gov.it/it/progetti/5ma10458/)
 
 
- {% assign year_from = site.posts[-1].date | date: '%Y' %}
+  assign year_from = site.posts[-1].date | date: '%Y' 
     {% assign year_to   = site.time | date: '%Y' %}
     {% if year_from == nil or year_from == year_to %}
       {% assign year_string = year_from %}
