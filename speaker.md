@@ -12,7 +12,7 @@ feature_image: "/merc.jpg"
 
 
 
-- FSEN 2019 - 8th IPM International Conference on Fundamentals of Software Engineering, IPM, Tehran (Iran), Accepted Speaker
+- FSEN 2019 - 8th IPM International Conference on Fundamentals of Software Engineering - IPM, Tehran,Iran
 
 - V Scientific Day - Unicam, Camerino, Italy
 
