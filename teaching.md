@@ -1,6 +1,6 @@
 ---
-title: Teachings
-layout: page
+title: Teachings@Unicam
+layout: blog
 feature_image: "/materia.jpg"
 excerpt: "Category index"
 ---
@@ -13,4 +13,6 @@ excerpt: "Category index"
   
 ## 2018/2019   
 - [Machine Learning](http://didattica.cs.unicam.it/doku.php?id=didattica:magistrale:ml:ay_1819:main)
-   
+
+## 2019/2020
+- [Machine Learning](http://didattica.cs.unicam.it/doku.php?id=didattica:magistrale:ml:ay_1920:main)
