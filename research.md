@@ -27,3 +27,14 @@ I am also interested in more purely educational aspects and I participated in th
 #### [ResearchGate](https://www.researchgate.net/profile/Marco_Piangerelli/research)
 
 A full list of publications is available at the above Google ReserchGate link.
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148503736-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148503736-1');
+</script>
