@@ -29,7 +29,7 @@ marco[dot]piangerelli[at]unicam[dot]it
 # Count-down for FuturenTech Week 2019 Virtual Workshop 
 <!DOCTYPE HTML>
 <html>
-
+<body>
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
