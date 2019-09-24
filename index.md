@@ -27,16 +27,15 @@ marco[dot]piangerelli[at]unicam[dot]it
 </script>
 
 <!--
-# Count-down for FuturenTech Week 2019 Virtual Workshop 
+# Count-down for FuturenTech Week 2019 Virtual Workshop  
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1"> </head> -->
+
+
 <!--
-</head>
 <body>
-<!--
 <p id="demo"></p>
-<!--
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
@@ -68,7 +67,6 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
-<!--
 </body>
-</html>
+</html> -->
 
