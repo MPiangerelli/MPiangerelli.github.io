@@ -30,6 +30,12 @@ marco[dot]piangerelli[at]unicam[dot]it
 <!DOCTYPE HTML>
 <html>
 <body>
+  
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
