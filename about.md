@@ -31,3 +31,13 @@ My full CV is available [here](europasscv_en.pdf).
 
 <!--{% include icon.html id="twitter" title="twitter" %} {% include icon.html id="linkedin" title="twitter" %}-->
 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148503736-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148503736-1');
+</script>
