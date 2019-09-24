@@ -30,13 +30,7 @@ marco[dot]piangerelli[at]unicam[dot]it
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-p {
-  text-align: center;
-  font-size: 60px;
-  margin-top: 0px;
-}
-</style>
+
 </head>
 <body>
 
