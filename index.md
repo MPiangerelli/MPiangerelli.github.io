@@ -16,6 +16,11 @@ marco[dot]piangerelli[at]unicam[dot]it
 {% include button.html text="Github" icon="github" link="https://github.com/MPiangerelli/" color="#0366d6" %} {% include button.html text="Twitter" icon="twitter" link="https://twitter.com/MPiangerelli" color="#0d94e7" %} {% include button.html text="LinkedIn" icon="linkedin" link="https://www.linkedin.com/in/marco-piangerelli-08392768/" color="#0d94e7" %} {% include button.html text="RG" icon="ResearchGate" link="https://www.researchgate.net/profile/Marco_Piangerelli/research" color="#48d1cc" %}
 
 
+
+<script type="text/javascript" src="https://www.counters-free.net/count/2rfs"></script><br>
+ <a href='https://www.symptoma.it/'>Symptoma</a> <script type='text/javascript' src='https://whomania.com/ctr?id=fba433cd7451537f65e8a7d95b1c4ac8bb7892d5'></script>
+
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148503736-1"></script>
 <script>
