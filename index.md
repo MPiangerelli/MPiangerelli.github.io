@@ -18,7 +18,7 @@ marco[dot]piangerelli[at]unicam[dot]it
 
 
 <script type="text/javascript" src="https://www.counters-free.net/count/2rfs"></script><br>
- <a href='https://www.symptoma.it/'>Symptoma</a> <script type='text/javascript' src='https://whomania.com/ctr?id=fba433cd7451537f65e8a7d95b1c4ac8bb7892d5'></script>
+
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
