@@ -151,3 +151,8 @@ collections:
       Welcome to my blog
     feature_image: "/amalassunta.jpg"
     #"https://picsum.photos/2560/600?image=866"
+
+sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: true
