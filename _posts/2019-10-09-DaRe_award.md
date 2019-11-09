@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A European Approach to Master’s Degrees in Data Science <a  img src="/tkb-1910-g.png" width=80 alt="Gold Blog" align="right"> </a>
+title: A European Approach to Master’s Degrees in Data Science
 categories:
 - Data Science/ Education
 feature_image: "https://picsum.photos/2560/600?image=872"
