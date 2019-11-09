@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: Projects
+title: Projects@Unicam
 feature_image: "/Giacomo-Balla-Forze-di-paesaggio-+-cocomero-1917-1918-tempera-su-carta-intelata-1030x615.jpg"
 
 ---
