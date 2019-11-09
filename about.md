@@ -29,9 +29,6 @@ I live in Portorecanti, Italy.
 
 My full CV is available [here](europasscv_en.pdf).
 
-<a href="https://www.kdnuggets.com/2019/11/top-stories-2019-oct.html">
-  <img src="https://www.kdnuggets.com/images/tkb-1910-g.png" width=94 alt="Gold Blog" align="right">
-</a>
 
 <!--{% include icon.html id="twitter" title="twitter" %} {% include icon.html id="linkedin" title="twitter" %}-->
 
