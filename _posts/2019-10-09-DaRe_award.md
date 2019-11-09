@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A European Approach to Master’s Degrees in Data Science
+title: A European Approach to Master’s Degrees in Data Science <a href="https://www.kdnuggets.com/2019/11/top-stories-2019-oct.html" img src="/tkb-1910-g.png" width=80 alt="Gold Blog" align="right"> </a>
 categories:
 - Data Science/ Education
 feature_image: "https://picsum.photos/2560/600?image=872"
@@ -10,6 +10,12 @@ A European Approach to Master’s Degrees in Data Science, by Marco Piangerelli 
 
 <a href="https://www.kdnuggets.com/2019/11/top-stories-2019-oct.html" img src="/tkb-1910-g.png" width=94 alt="Gold Blog" align="right"> </a>
 
-<img= "/tkb-1910-g.png">
 
 Data science education in Europe has been reevaluated and new recommendations are leading the way to the next generation of data science Master's courses to better support and train students.
+
+<div class="feature" style="background-image: url(https://picsum.photos/2560/600?image=872)">
+    <div class="container  typeset">
+      
+
+    </div>
+  </div>
