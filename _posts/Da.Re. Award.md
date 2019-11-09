@@ -11,3 +11,4 @@ A European Approach to Master’s Degrees in Data Science, by Marco Piangerelli 
 
 
 
+<img src="/tkb-1910-g.png" style="width:35%; border:10px solid; margin-right: 20px" align="left">
