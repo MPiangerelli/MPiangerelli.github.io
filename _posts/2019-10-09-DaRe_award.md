@@ -5,7 +5,8 @@ categories:
 - Data Science/ Education
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
-A European Approach to Master’s Degrees in Data Science, by Marco Piangerelli and Jeff Johnson
+A European Approach to Master’s Degrees in Data Science
+by Marco Piangerelli and Jeff Johnson
 
 {% include figure.html image=" https://www.kdnuggets.com/images/tkb-1910-g.png"  position="left" width="94" %} 
 
