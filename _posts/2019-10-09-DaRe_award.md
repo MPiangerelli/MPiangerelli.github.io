@@ -7,11 +7,8 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 A European Approach to Master’s Degrees in Data Science, by Marco Piangerelli and Jeff Johnson
 
-{% include figure.html image=" https://www.kdnuggets.com/images/tkb-1910-g.png" href="https://www.kdnuggets.com/2019/11/top-stories-2019-oct.html" position="left" width="94" %} 
+{% include figure.html image=" https://www.kdnuggets.com/images/tkb-1910-g.png"  position="left" width="94" %} 
 
-<a href="https://www.kdnuggets.com/2019/11/top-stories-2019-oct.html">
-  <img src="https://www.kdnuggets.com/images/tkb-1910-g.png" width=94 alt="Gold Blog" align="right">
-</a>
 
 
 <a href="https://www.kdnuggets.com/2019/11/top-stories-2019-oct.html">Learn about the a href attribute</a>
