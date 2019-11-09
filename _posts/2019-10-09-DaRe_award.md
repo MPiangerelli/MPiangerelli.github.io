@@ -12,3 +12,5 @@ by Marco Piangerelli and Jeff Johnson
 
 Data science education in Europe has been reevaluated and new recommendations are leading the way to the next generation of data science Master's courses to better support and train students. <a href="https://www.kdnuggets.com/2019/11/top-stories-2019-oct.html">[...]</a>
 
+<a class="button" href="mailto:?subject=Description of a Pot Still&amp;body=Hey, check out this: https://alembic.darn.es/general/2016/08/29/example-post-three/" style="background: true">Email&nbsp; <svg width="16" height="16" class="icon  icon--email" role="img" alt="email"><title>email</title><use xlink:href="#email" fill="CurrentColor"></use></svg>
+</a>
