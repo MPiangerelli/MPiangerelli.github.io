@@ -263,25 +263,24 @@ E' bene tenere presente che un modello cerca di descrivere la realtà (sulla bas
 Per chi fosse curioso, le equazioni che descrivono il modello sono riportate di seguito.
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<div align="left">
+
   \[{dS \over dt} = -\beta SI   (I)\]
   \[{dI \over dt} = -\beta SI + \gamma I \]
   \[{dR \over dt} = \gamma I\]
-  <\div>
 
       
 Prima di tutto sono equazioni ed esprimo l'idea di uguaglianza tra che ciò che si trova a sinistra e ciò che si trova a dx del simbolo "=". Come si leggono queste equazioni? A sinistra del simbolo "=" abbiamo di segni "strani" \[d\over\dt\] ma che molto semplicemente leggeremo come "la variazione nel temp di" S,I ed R rispettivamente. A destra del simbolo di "="  abbiamo moltiplicazioni, somme e sottrazioni.
 Ad esempio, la prima equazione si legge "la variazione nel tempo dei Suscettibili (S) è uguale a meno il prodotto tra beta, i Suscettibili ed gli Infetti (I)"
-Oltre alle quantità S, I, ed R abbiamo altri due simboli \[\beta\] e \[\gamma\]. Cosa rappresentano ? Bene, questi due simboli sono i cosiddetti parametri del modello che rappresentano rispettivamente 
-La quantità \[R_0 = \beta \over \gamma è chiamata “numero di riproduzione di base”, e rappresenta il numero medio di infezioni secondarie prodotte da ciascun individuo infetto in una popolazione completamente suscettibile cioè mai venuta a contatto con il nuovo patogeno emergente. 
-Questo parametro misura la potenziale trasmissibilità di una malattia infettiva,In altre parole se l'R0 di una malattia infettiva è circa 2, significa che in media un singolo malato infetterà due persone. Quanto maggiore è il valore di R0 e tanto più elevato è il rischio di diffusione dell’epidemia. Se invece il valore di R0 fosse inferiore ad 1 ciò significa che l’epidemia può essere contenuta.
+Oltre alle quantità S, I, ed R abbiamo altri due simboli \[\beta \] e \[\gamma \]. Cosa rappresentano ? Bene, questi due simboli sono i cosiddetti parametri del modello che rappresentano rispettivamente 
+La quantità <i>R</i> <sub>0</sub> = <i>β</i> \ <i>γ</i> è chiamata “numero di riproduzione di base”, e rappresenta il numero medio di infezioni secondarie prodotte da ciascun individuo infetto in una popolazione completamente suscettibile cioè mai venuta a contatto con il nuovo patogeno emergente. 
+Questo parametro misura la potenziale trasmissibilità di una malattia infettiva,In altre parole se il fattore <i>R</i> <sub>0</sub> di una malattia infettiva è circa 2, significa che in media un singolo malato infetterà due persone. Quanto maggiore è il valore di R0 e tanto più elevato è il rischio di diffusione dell’epidemia. Se invece il valore di R0 fosse inferiore ad 1 ciò significa che l’epidemia può essere contenuta.
 Da quando l'epidemia del nuovo coronavirus (2019-nCoV) emerso in Cina ha cominciato a diffondersi e sono iniziati a circolare i dati sui primi casi confermati, l'Organizzazione Mondiale della Sanità (OMS) e numerosi istituti di ricerca di tutto il mondo hanno diffuso stime di R0 dell'infezione. Queste stime sono comprese tra 1,4 e 3,8 nelle aree colpite in questa prima fase di diffusione (https://www.iss.it/primo-piano/-/asset_publisher/o4oGR9qmvUz9/content/id/5268851).
 
 Implementanto il modello e simulando la sua dinamica, cioè la sua evoluzione nel tempo, quello che otteniamo è un grafico tipo quello che vediamo in Fig.2
-ISS, 5 febbraio 2020
 
-    
-<img src="./Acute care hospital beds per 100 000.png" width="1000" height="288" alt="WHO">      
+
+In particolare, come sta avvenendo in Cina, anche le misure di allontanamento sociale (ad es. la sospensione di aggregazioni pubbliche e del trasporto) e la riduzione della trasmissione per contatto (ad es. mediante l'uso di misure di protezione personale da parte degli operatori sanitari) comporterebbero riduzioni del numero di riproduzione di base. 
+<img src="/ICU_beds_per_100 000.png" width="1000" height="288" alt="WHO">      
 </p>
 
 
@@ -349,7 +348,7 @@ ISS, 5 febbraio 2020
 
    
      <div <li="" class="item  item--nav">
-         <a href="https://www.ilgiornale.it/sites/default/files/foto/2020/03/02//1583134243-covid.jpg"> <small class="small"> Rights: Il Giornale s.p.a </small> </a>
+         <a href="https://www.ilgiornale.it/sites/default/files/foto/2020/03/02//1583134243-covid.jpg"> <small class="small"> Image from: Il Giornale s.p.a </small> </a>
         
     </div>
 
