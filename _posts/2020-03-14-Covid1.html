@@ -246,14 +246,14 @@
 
     <p>In questi giorni l'attenzione di tutti è per il virus SARS-CoV-2. Questo virus è stato individuato per la prima volta nella città di Wuhan in Cina il 31-12-2019 avendo una rapida diffusione e creando la situazione che tutti conoscono (guarda la cronistoria sul sito dell'<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen" rel="nofollow" target="_blank">[1]</a>).
 
----Il virus 
+<h3>Il Virus</h3>
 
 
 Il virus si è diffuso subito in molti altri paesi tra cui l'Italia creando non pochi problemi e costringendo il governo a varare misure eccezionali per cercare di contenere la sua diffusione e non caricare il SSN.
 
 In questo post si spiegherà, utilizzando modelli matematici, come si diffonde un virus, perchè questo virus è pericoloso per il nostro SSN e commenteremo qualche dato per capire il perchè delle misure di contenimento prese dal governo.
 
-Il Modello SIR
+<h3>Il Modello SIR</h3>
 
 L'epidemiologia, cioè la scienza che studia la diffusione delle epidemie, ha sviluppato dei modelli matematici/computazionali per cercare di studiare l'andamento e prevedere parametri importanti nella diffusione delle epidemie. 
 Uno di questi modelli è il modello SIR, acronimo di Susceptible, Infected, Recovered (Suscettibili, Infetti, Recuperati).
@@ -286,13 +286,17 @@ Implementanto il modello e simulando la sua dinamica, cioè la sua evoluzione ne
 Le curve indicano, al passare del tempo, la percentuale di individui che appartengono ad ogni compartimento. In paericolare possiamo notare la curva rossa, ovvero la curva degli Infetti (I).
 Questa curva raggiunge un picco e poi decade. Il picco è più o meno alto e più o meno traslato nel tempo a seco da dei parametri <i>β</i> e <i>γ</i>. 
 
---- Perchè il picco è importante?
+<h3>Perchè il picco è importante?</h3>
 Il picco è una caratteristica da tenere in considerazione in quanto rappresenta il numero massimo di Infetti (I) in un giorno. 
 Nel caso specifico del SARS-CoV-2 è riportato nelle statistiche che circa un 20% di Infetti sviluppa delle complicazione tali per cui è necessario un ricovero in terapia intensiva; sapere il picco di contagi ci permette di stimare quante persone potrebbero aver bisogno della terapia intensiva e
-confrontando questo numero con il numero dei posti disponibili in terapia intensiva si potrebbe sapere se il SSN riuscirebbe a far fronte all'avanzata dell'epide
+confrontando questo numero con il numero dei posti disponibili in terapia intensiva si potrebbe sapere se il SSN riuscirebbe a far fronte all'avanzata dell'epidemia. 
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/3.embed"></iframe>
         
 In particolare, come sta avvenendo in Cina, anche le misure di allontanamento sociale (ad es. la sospensione di aggregazioni pubbliche e del trasporto) e la riduzione della trasmissione per contatto (ad es. mediante l'uso di misure di protezione personale da parte degli operatori sanitari) comporterebbero riduzioni del numero di riproduzione di base. 
+In figura 4 è mostrata la riduzione progressiva, secondo l'OMS, dei posti in terapia intensiva in Italia, ogni 100000 abitanti.
+Secondo i dati disponibili, aggironati al 2013, l'Italia ha 275 posti, ogni 100000 abitanti, in terapia intensiva.
+Questo significa che in totale in Italia sono a dispisizione 165000. Un stima di del giornale "" abbassa ulteriormente questo numero a 12.5 posti per 100000 abitanti.
+
 <img src="/ICU_beds_per_100 000.png" width="1000" height="400" alt="WHO">      
 </p>
 
