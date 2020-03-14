@@ -255,10 +255,33 @@ In questo post si spiegherà, utilizzando modelli matematici, come si diffonde u
 
 Il Modello SIR
 
-L'epidemiologia, cioè la scienza che studia la diffusione delle epidemie, ha sviluppato dei modelli matematici/computazionali per cercare di studiare l'andamento e prevedere parametri importanti nella diffusione dell'epidemiologia.
+L'epidemiologia, cioè la scienza che studia la diffusione delle epidemie, ha sviluppato dei modelli matematici/computazionali per cercare di studiare l'andamento e prevedere parametri importanti nella diffusione delle epidemie. 
+Uno di questi modelli è il modello SIR, acronimo di Susceptible, Infected, Recovered (Suscettibili, Infetti, Recuperati).
+Questo modello, introdotto da ........ nel...., è un cosiddetto modello compartimentale poichè suddivide la popolazione in tre compartimenti (S, I, ed R) e simula cosa potrebbe succedere, col passare del tempo, agli individui appartententi a queste popolazioni.
+
+E' bene tenere presente che un modello cerca di descrivere la realtà (sulla base ad alcune ipotesi iniziali), ma non è la realtà. Questà è molto più complessa e spesso questi modelli, pur essendo delle buone approsimazioni, potrebbero non essere estremamente precisi.
+Per chi fosse curioso, le equazioni che descrivono il modello sono riportate di seguito.
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<div align="left">
+  \[{dS \over dt} = -\beta SI   (I)\]
+  \[{dI \over dt} = -\beta SI + \gamma I \]
+  \[{dR \over dt} = \gamma I\]
+  <\div>
 
       
-<img src="../../Acute care hospital beds per 100 000.png" width="1000" height="288" alt="WHO">      
+Prima di tutto sono equazioni ed esprimo l'idea di uguaglianza tra che ciò che si trova a sinistra e ciò che si trova a dx del simbolo "=". Come si leggono queste equazioni? A sinistra del simbolo "=" abbiamo di segni "strani" \[d\over\dt\] ma che molto semplicemente leggeremo come "la variazione nel temp di" S,I ed R rispettivamente. A destra del simbolo di "="  abbiamo moltiplicazioni, somme e sottrazioni.
+Ad esempio, la prima equazione si legge "la variazione nel tempo dei Suscettibili (S) è uguale a meno il prodotto tra beta, i Suscettibili ed gli Infetti (I)"
+Oltre alle quantità S, I, ed R abbiamo altri due simboli \[\beta\] e \[\gamma\]. Cosa rappresentano ? Bene, questi due simboli sono i cosiddetti parametri del modello che rappresentano rispettivamente 
+La quantità \[R_0 = \beta \over \gamma è chiamata “numero di riproduzione di base”, e rappresenta il numero medio di infezioni secondarie prodotte da ciascun individuo infetto in una popolazione completamente suscettibile cioè mai venuta a contatto con il nuovo patogeno emergente. 
+Questo parametro misura la potenziale trasmissibilità di una malattia infettiva,In altre parole se l'R0 di una malattia infettiva è circa 2, significa che in media un singolo malato infetterà due persone. Quanto maggiore è il valore di R0 e tanto più elevato è il rischio di diffusione dell’epidemia. Se invece il valore di R0 fosse inferiore ad 1 ciò significa che l’epidemia può essere contenuta.
+Da quando l'epidemia del nuovo coronavirus (2019-nCoV) emerso in Cina ha cominciato a diffondersi e sono iniziati a circolare i dati sui primi casi confermati, l'Organizzazione Mondiale della Sanità (OMS) e numerosi istituti di ricerca di tutto il mondo hanno diffuso stime di R0 dell'infezione. Queste stime sono comprese tra 1,4 e 3,8 nelle aree colpite in questa prima fase di diffusione (https://www.iss.it/primo-piano/-/asset_publisher/o4oGR9qmvUz9/content/id/5268851).
+
+Implementanto il modello e simulando la sua dinamica, cioè la sua evoluzione nel tempo, quello che otteniamo è un grafico tipo quello che vediamo in Fig.2
+ISS, 5 febbraio 2020
+
+    
+<img src="./Acute care hospital beds per 100 000.png" width="1000" height="288" alt="WHO">      
 </p>
 
 
