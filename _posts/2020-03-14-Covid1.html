@@ -244,7 +244,7 @@
   &nbsp;·&nbsp;<time datetime="2019-10-10T00:00:00+01:00" class="time">10 Oct 2019</time>
 </small>
 
-    <p>In questi giorni l'attenzione di tutti è per il virus SARS2-Cov-19. Questo virus è stato individuato per la prima volta nella città di Wuhan in Cina il 31 12 2019 avendo una rapida diffusione e creando la situazione che tutti conoscono (guarda la cronistoria sul sito dell'OMS https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen).
+    <p>In questi giorni l'attenzione di tutti è per il virus SARS2-Cov-19. Questo virus è stato individuato per la prima volta nella città di Wuhan in Cina il 31-12-2019 avendo una rapida diffusione e creando la situazione che tutti conoscono (guarda la cronistoria sul sito dell'<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen" rel="nofollow" target="_blank">[1]</a>).
 
 Il virus 
 
@@ -273,18 +273,24 @@ Prima di tutto è bene notare che sono equazioni differenziali. Come equazioni e
 Come si leggono queste equazioni? A sinistra del simbolo "=" abbiamo di segni "strani" d/dt ma che molto semplicemente leggeremo come "la variazione nel tempo di" S,I ed R rispettivamente. A destra del simbolo di "="  abbiamo moltiplicazioni, somme e sottrazioni.
 Ad esempio, la prima equazione si legge "la variazione nel tempo dei Suscettibili (S) è uguale a meno il prodotto tra beta, i Suscettibili ed gli Infetti (I)"
 Oltre alle quantità S, I, ed R abbiamo altri due simboli <i>β</i> e <i>γ</i>. Cosa rappresentano ? Sono i cosiddetti parametri del modello che rappresentano rispettivamente il parametro di trasmissione (tasso di contagio tra persone S e I) e il parametro di recuperati (tasso di persone passate da I a R)
-La quantità <i>R</i> <sub>0</sub> = <i>β</i> / <i>γ</i> è chiamata “numero di riproduzione di base”, e rappresenta il numero medio di infezioni secondarie prodotte da ciascun individuo infetto in una popolazione completamente suscettibile cioè mai venuta a contatto con il nuovo patogeno emergente. 
-Questo parametro misura la potenziale trasmissibilità di una malattia infettiva,In altre parole se il fattore <i>R</i> <sub>0</sub> di una malattia infettiva è circa 2, significa che in media un singolo malato infetterà due persone. Quanto maggiore è il valore di R0 e tanto più elevato è il rischio di diffusione dell’epidemia. Se invece il valore di R0 fosse inferiore ad 1 ciò significa che l’epidemia può essere contenuta.
-Da quando l'epidemia del nuovo coronavirus (2019-nCoV) emerso in Cina ha cominciato a diffondersi e sono iniziati a circolare i dati sui primi casi confermati, l'Organizzazione Mondiale della Sanità (OMS) e numerosi istituti di ricerca di tutto il mondo hanno diffuso stime di R0 dell'infezione. Queste stime sono comprese tra 1,4 e 3,8 nelle aree colpite in questa prima fase di diffusione (https://www.iss.it/primo-piano/-/asset_publisher/o4oGR9qmvUz9/content/id/5268851).
+La quantità <i>R</i><sub>0</sub> = <i>β</i>/<i>γ</i> è chiamata “numero di riproduzione di base”, e rappresenta il numero medio di infezioni secondarie prodotte da ciascun individuo infetto in una popolazione completamente suscettibile cioè mai venuta a contatto con il nuovo patogeno emergente. 
+Questo parametro misura la potenziale trasmissibilità di una malattia infettiva,In altre parole se il fattore <i>R</i><sub>0</sub> di una malattia infettiva è circa 2, significa che in media un singolo malato infetterà due persone. Quanto maggiore è il valore di <i>R</i><sub>0</sub> e tanto più elevato è il rischio di diffusione dell’epidemia. Se invece il valore di R0 fosse inferiore ad 1 ciò significa che l’epidemia può essere contenuta.
+Da quando l'epidemia del nuovo coronavirus (2019-nCoV) emerso in Cina ha cominciato a diffondersi e sono iniziati a circolare i dati sui primi casi confermati, l'Organizzazione Mondiale della Sanità (OMS) e numerosi istituti di ricerca di tutto il mondo hanno diffuso stime di <i>R</i><sub>0</sub> dell'infezione. 
+Queste stime sono comprese tra 1,4 e 3,8 nelle aree colpite in questa prima fase di diffusione <a href="https://www.iss.it/primo-piano/-/asset_publisher/o4oGR9qmvUz9/content/id/5268851" rel="nofollow" target="_blank">[1]</a>.
 
 Implementanto il modello e simulando la sua dinamica, cioè la sua evoluzione nel tempo, quello che otteniamo è un grafico tipo quello che vediamo in Fig.2
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/1.embed"></iframe> 
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/1.embed"></iframe> 
 
+Le curve indicano, al passare del tempo, la percentuale di individui che appartengono ad ogni compartimento. In paericolare possiamo notare la curva rossa, ovvero la curva degli Infetti (I).
+Questa curva raggiunge un picco e poi decade. Il picco è più o meno alto e più o meno traslato nel tempo a seco da dei parametri <i>β</i> e <i>γ</i>. 
 
-
+###Perchè il picco è importante?
+Il picco è una caratteristica da tenere in considerazione in quanto rappresenta il numero massimo di Infetti (I) in un giorno. 
+Nel caso specifico del SARS2-COv-19 è riportato nelle statistiche che circa un 20% di Infetti sviluppa delle complicazione tali per cui è necessario un ricovero in terapia intensiva; sapere il picco di contagi ci permette di stimare quante persone potrebbero aver bisogno della terapia intensiva e
+confrontando questo numero con il numero dei posti disponibili in terapia intensiva si potrebbe sapere se il SSN riuscirebbe a far fronte all'avanzata dell'epide
 In particolare, come sta avvenendo in Cina, anche le misure di allontanamento sociale (ad es. la sospensione di aggregazioni pubbliche e del trasporto) e la riduzione della trasmissione per contatto (ad es. mediante l'uso di misure di protezione personale da parte degli operatori sanitari) comporterebbero riduzioni del numero di riproduzione di base. 
-<img src="/ICU_beds_per_100 000.png" width="1000" height="288" alt="WHO">      
+<img src="/ICU_beds_per_100 000.png" width="1000" height="400" alt="WHO">      
 </p>
 
 
