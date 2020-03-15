@@ -276,10 +276,11 @@ Oltre alle quantità S, I, ed R abbiamo altri due simboli <i>β</i> e <i>γ</i>.
 La quantità <i>R</i><sub>0</sub> = <i>β</i>/<i>γ</i> è chiamata “numero di riproduzione di base”, e rappresenta il numero medio di infezioni secondarie prodotte da ciascun individuo infetto in una popolazione completamente suscettibile cioè mai venuta a contatto con il nuovo patogeno emergente. 
 Questo parametro misura la potenziale trasmissibilità di una malattia infettiva,In altre parole se il fattore <i>R</i><sub>0</sub> di una malattia infettiva è circa 2, significa che in media un singolo malato infetterà due persone. Quanto maggiore è il valore di <i>R</i><sub>0</sub> e tanto più elevato è il rischio di diffusione dell’epidemia. 
 Se invece il valore di <i>R</i><sub>0</sub> fosse inferiore ad 1 ciò significa che l’epidemia può essere contenuta.
-Da quando l'epidemia del nuovo coronavirus, SARS-CoV-2, emerso in Cina ha cominciato a diffondersi e sono iniziati a circolare i dati sui primi casi confermati, l'Organizzazione Mondiale della Sanità (OMS) e numerosi istituti di ricerca di tutto il mondo hanno diffuso stime di <i>R</i><sub>0</sub> dell'infezione. 
+
+<p>Da quando l'epidemia del nuovo coronavirus, SARS-CoV-2, emerso in Cina ha cominciato a diffondersi e sono iniziati a circolare i dati sui primi casi confermati, l'Organizzazione Mondiale della Sanità (OMS) e numerosi istituti di ricerca di tutto il mondo hanno diffuso stime di <i>R</i><sub>0</sub> dell'infezione. 
 Queste stime sono comprese tra 1,4 e 3,8 nelle aree colpite in questa prima fase di diffusione <a href="https://www.iss.it/primo-piano/-/asset_publisher/o4oGR9qmvUz9/content/id/5268851" rel="nofollow" target="_blank">[2]</a>.
 
-Implementanto il modello e simulando la sua dinamica, cioè la sua evoluzione nel tempo, quello che otteniamo è un grafico tipo quello che vediamo in Fig.2
+Implementando il modello e simulando la sua dinamica, cioè la sua evoluzione nel tempo, quello che otteniamo è un grafico tipo quello che vediamo in Fig.2
 
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/1.embed"></iframe> 
 
@@ -288,14 +289,30 @@ Questa curva raggiunge un picco e poi decade. Il picco è più o meno alto e pi�
 
 <h3>Perchè il picco è importante?</h3>
 Il picco è una caratteristica da tenere in considerazione in quanto rappresenta il numero massimo di Infetti (I) in un giorno. 
-Nel caso specifico del SARS-CoV-2 è riportato nelle statistiche che circa un 20% di Infetti sviluppa delle complicazione tali per cui è necessario un ricovero in terapia intensiva; sapere il picco di contagi ci permette di stimare quante persone potrebbero aver bisogno della terapia intensiva e
-confrontando questo numero con il numero dei posti disponibili in terapia intensiva si potrebbe sapere se il SSN riuscirebbe a far fronte all'avanzata dell'epidemia. 
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/3.embed"></iframe>
-        
-In particolare, come sta avvenendo in Cina, anche le misure di allontanamento sociale (ad es. la sospensione di aggregazioni pubbliche e del trasporto) e la riduzione della trasmissione per contatto (ad es. mediante l'uso di misure di protezione personale da parte degli operatori sanitari) comporterebbero riduzioni del numero di riproduzione di base. 
-In figura 4 è mostrata la riduzione progressiva, secondo l'OMS, dei posti in terapia intensiva in Italia, ogni 100000 abitanti.
+    
+La seguente figura compara due casi: nel primo caso, curva rossa, la diffusione dell'epidemi è veloce e comporta il raggiungimento di un picco molto alto e vicino nel tempo; nel secondo caso, curva blu, il picco è più basso e più lontano nel tempo.
+Nel grafico, inoltre, si può vedere una linea orizzontale nera che rappresenta la capacità si posti in terapia intensiva del SSN. 
+Come riportato nelle statistiche, nel caso specifico del SARS-CoV-2, circa un 20% di Infetti sviluppa delle complicazioni tali per cui è necessario un ricovero in terapia intensiva: conoscere il picco di contagi aiuterebbe a stimare quante persone potrebbero aver bisogno della terapia intensiva e
+confrontando questo con il numero effettivo dei posti disponibili in terapia intensiva si potrebbe stimare se il SSN collasserebbe oppure riuscirebbe a far fronte all'avanzata dell'epidemia.
+Le curve arancione e celeste rappresentano il 20% degli infetti rispettivamente nel primo e nel secondo caso di epidemia. Come si può notare, nel primo caso il SSN non riuscirebbe a far fronte al numero dei ricoveri in terapia intensiva (curva arancione è sopra la curva nera), al contrario nel secondo caso il SSN riuscirebbe a sistemare tutti ipazineti in terapia intensiava (curva celeste al di sotto della curva nera).
+  
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/7.embed"></iframe>
+      </p>
+<p> 
+Ora la domanda è: come si può passare dalla curva rossa alla curva blu (e quindi dare tempo al SSN di assorbire i casi acuti?) Per fare ciò, matematicamente, è NECESSARIO ridurre il valore del coefficiente <i>β</i>. Tradotto in poche parole è necessario ridurre il tasso di contagio EVITANDO I CONTATTI CON ALTRE PERSONE E QUINDI SEMPICEMENTE STANDO A CASA E USANDO MISURE PROTETTIVE.
+Lo stare TUTTI a casa ( e non solo i malati) si rende necessario in quanto la maggior parte dei contagiati dal virus è asintomatico (non mostra i sintomi e non sa di essere malato) ma può infettare gli altri. 
+Limitare i contatti serve soprattuto ad evitare che gli asintomatici possano infettare le persone con cui vengono a contatto.
+E' prorpiro per questo motivo che il governo ha varato queste misure che potrebbero essere definite di "allontanamento sociale". 
+sta avvenendo in Cina, anche le misure di allontanamento sociale (ad es. la sospensione di aggregazioni pubbliche e del trasporto) e la riduzione della trasmissione per contatto (ad es. mediante l'uso di misure di protezione personale da parte degli operatori sanitari)
+Queste misure come in effeti si sta verificando in Cina, comporterebbero riduzioni del numero di riproduzione di base, <i>R</i><sub>0</sub>, agendo sul coefficiente <i>β</i>.
+
+<h3>Qual'è la situazione Italiana? </h3> 
+Per conoscere la situazione Italiana possiamo fare una simulazione utilizando il modello SIR e anche andare a vedere cosa dicon i dati veri (disponibili sul sito del ministero e <a href="http://opendatadpc.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR0BA9-8pFQ9iFX-R_FWSAfx258ZkivxzwZ-9lu0ghnjK2R6VpJZJa0uz7w#/b0c68bce2cce478eaac82fe38d4138b1" >della protezione civile </a>]  
+    
+    
+    In figura 4 è mostrata la riduzione progressiva, secondo l'OMS, dei posti in terapia intensiva in Italia, ogni 100000 abitanti.
 Secondo i dati disponibili, aggironati al 2013, l'Italia ha 275 posti, ogni 100000 abitanti, in terapia intensiva.
-Questo significa che in totale in Italia sono a dispisizione 165000. Un stima di del giornale "" abbassa ulteriormente questo numero a 12.5 posti per 100000 abitanti.
+Questo significa che in totale in Italia sono a dispisizione 165000.
 
 <img src="/ICU_beds_per_100 000.png" width="1000" height="400" alt="WHO">      
 </p>
