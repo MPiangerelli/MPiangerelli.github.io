@@ -232,7 +232,7 @@
 
   <article class="article  article--post  content  typeset">
 
-    <h1>Covid-19: qualche data </h1>
+    <h1>Covid-19: qualche dato </h1>
     
 
 <small class="small  post-meta">
@@ -244,36 +244,44 @@
   &nbsp;·&nbsp;<time datetime="2019-10-10T00:00:00+01:00" class="time">10 Oct 2019</time>
 </small>
 
-    <p>In questi giorni l'attenzione di tutti è per il virus SARS-CoV-2. Questo virus è stato individuato per la prima volta nella città di Wuhan in Cina il 31-12-2019 avendo una rapida diffusione e creando la situazione che tutti conoscono (guarda la cronistoria sul sito dell'<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen" rel="nofollow" target="_blank">[1]</a>).
+    <p>In questi giorni l'attenzione di tutti è per il virus SARS-CoV-2, comunemente chiamato "Il coronavirus".
+        Esso è stato individuato per la prima volta nella città di Wuhan in Cina il 31-12-2019 avendo una rapida diffusione e creando la situazione di cui tutti sono venuti a conoscenza (guarda la <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen" rel="nofollow" target="_blank">cronistoria</a>).
 
-<h3>Il Virus</h3>
+<h4>Il Virus</h4>
 
 
-Il virus si è diffuso subito in molti altri paesi tra cui l'Italia creando non pochi problemi e costringendo il governo a varare misure eccezionali per cercare di contenere la sua diffusione e non caricare il SSN.
+Il coronavirus si è <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">diffuso</a> subito in molti paesi, tra cui l'Italia, creando non pochi problemi e costringendo il governi a varare misure eccezionali per cercare di contenere la sua diffusione e non gracare sui vari sistemi sanitari..
 
-In questo post si spiegherà, utilizzando modelli matematici, come si diffonde un virus, perchè questo virus è pericoloso per il nostro SSN e commenteremo qualche dato per capire il perchè delle misure di contenimento prese dal governo.
+In questo post si spiegherà, utilizzando modelli matematici, come si diffonde un virus, perchè questo virus è pericoloso per il SSN Italiano e commenteremo qualche dato per capire il perchè delle misure di contenimento prese dal Governo Italiano.
 
-<h3>Il Modello SIR</h3>
+<h4>Il Modello SIR</h4>
 
-L'epidemiologia, cioè la scienza che studia la diffusione delle epidemie, ha sviluppato dei modelli matematici/computazionali per cercare di studiare l'andamento e prevedere parametri importanti nella diffusione delle epidemie. 
-Uno di questi modelli è il modello SIR, acronimo di Susceptible, Infected, Recovered (Suscettibili, Infetti, Recuperati).
-Questo modello, introdotto da Kermack and McKendrick nel 1927 <a href="https://royalsocietypublishing.org/doi/10.1098/rspa.1927.0118" rel="nofollow" target="_blank">[1]</a>, è un cosiddetto modello compartimentale poichè suddivide la popolazione in tre compartimenti (S, I, ed R) e simula cosa potrebbe succedere, col passare del tempo, agli individui appartententi a queste popolazioni.
+L'Epidemiologia, cioè la scienza che studia la diffusione delle epidemie, ha sviluppato dei modelli matematici/computazionali per cercare di studiare l'andamento e prevedere parametri importanti nella diffusione delle epidemie. 
 
-E' bene tenere presente che un modello cerca di descrivere la realtà (sulla base ad alcune ipotesi iniziali), ma non è la realtà. Questà è molto più complessa e spesso questi modelli, pur essendo delle buone approsimazioni, potrebbero non essere estremamente precisi.
-Per chi fosse curioso, le equazioni che descrivono il modello sono riportate di seguito.
+      Uno di questi modelli è il SIR, acronimo di Susceptible-Infected-Recovered (Suscettibili-Infetti-Recuperati).
+Questo modello, introdotto da <a href="https://royalsocietypublishing.org/doi/10.1098/rspa.1927.0118" rel="nofollow" target="_blank">[Kermack and McKendrick</a> nel 1927, è un cosiddetto modello compartimentale poichè suddivide la popolazione in tre compartimenti (S, I, ed R) e simula cosa potrebbe succedere, al passare del tempo, agli individui appartententi a queste popolazioni.
+      Come ogni modello, esso <i>cerca</i> di descrivere la realtà, partendo da alcune ipotesi iniziali), ma <i>non è</i> la realtà. 
+      Ciò che accade realmente è molto complesso e occorre comprendere che, pur essendo questi modelli delle buone approssimazioni, essi non sono precisi.
+
+      Per chi fosse curioso, le equazioni che descrivono il modello SIR sono riportate di seguito:
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-  \[{dS \over dt} = -\beta SI   (I)\]
-  \[{dI \over dt} = -\beta SI + \gamma I \]
-  \[{dR \over dt} = \gamma I\]
+  \[{dS \over dt} = -\beta SI  1)\]
+  \[{dI \over dt} = -\beta SI + \gamma I 2)\]
+  \[{dR \over dt} = \gamma I 3)\]
 
       
-Prima di tutto è bene notare che sono equazioni differenziali. Come equazioni esprimono l'idea di uguaglianza tra che ciò che si trova a sinistra e ciò che si trova a destra del simbolo "=". Il fatto che siano equazioni differenziali può essere visto che descrivono la variazione di una quantità rispetto ad un'altra.
-Come si leggono queste equazioni? A sinistra del simbolo "=" abbiamo di segni "strani" d/dt ma che molto semplicemente leggeremo come "la variazione nel tempo di" S,I ed R rispettivamente. A destra del simbolo di "="  abbiamo moltiplicazioni, somme e sottrazioni.
-Ad esempio, la prima equazione si legge "la variazione nel tempo dei Suscettibili (S) è uguale a meno il prodotto tra beta, i Suscettibili ed gli Infetti (I)"
-Oltre alle quantità S, I, ed R abbiamo altri due simboli <i>β</i> e <i>γ</i>. Cosa rappresentano ? Sono i cosiddetti parametri del modello che rappresentano rispettivamente il parametro di trasmissione (tasso di contagio tra persone S e I) e il parametro di recuperati (tasso di persone passate da I a R)
-La quantità <i>R</i><sub>0</sub> = <i>β</i>/<i>γ</i> è chiamata “numero di riproduzione di base”, e rappresenta il numero medio di infezioni secondarie prodotte da ciascun individuo infetto in una popolazione completamente suscettibile cioè mai venuta a contatto con il nuovo patogeno emergente. 
+Tali <i>equazioni</i> sono <i>equazioni differenziali</i>. Come <i>equazioni</i> esprimono l'idea di uguaglianza tra che ciò che si trova a sinistra e ciò che si trova a destra del simbolo "=". 
+Il fatto che siano <i>equazioni differenziali</i> "descrivono" la variazione di una quantità rispetto ad un'altra.
+A sinistra del simbolo "=" abbiamo i d/dt che leggeremo come "la variazione nel tempo di S(eqauzione 1),I (eqauzione 2) ed R(eqauzione 3) rispettivamente. 
+A destra del simbolo "="  abbiamo moltiplicazioni, somme e sottrazioni.
+
+      La prima equazione si legge "la variazione nel tempo dei Suscettibili è uguale all'opposto del prodotto tra <i>β</i>, i Suscettibili ed gli Infetti.
+
+      I simboli <i>β</i> e <i>γ</i> sono i cosiddetti parametri del modello: rappresentano rispettivamente il parametro di <i>trasmissione</i> (tasso di contagio tra persone S e I) e il parametro di <i>recuperati</i> (tasso di persone passate da I a R).
+
+      La quantità <i>R</i><sub>0</sub> = <i>β</i>/<i>γ</i> è chiamata <i>numero di riproduzione di base</i>: rappresenta il numero medio di infezioni secondarie, ovvero quelle prodotte da ciascun individuo infetto in una popolazione completamente suscettibile (mai venuta a contatto con il nuovo patogeno emergente). 
 Questo parametro misura la potenziale trasmissibilità di una malattia infettiva,In altre parole se il fattore <i>R</i><sub>0</sub> di una malattia infettiva è circa 2, significa che in media un singolo malato infetterà due persone. Quanto maggiore è il valore di <i>R</i><sub>0</sub> e tanto più elevato è il rischio di diffusione dell’epidemia. 
 Se invece il valore di <i>R</i><sub>0</sub> fosse inferiore ad 1 ciò significa che l’epidemia può essere contenuta.
 
