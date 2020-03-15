@@ -277,10 +277,7 @@ La quantità <i>R</i><sub>0</sub> = <i>β</i>/<i>γ</i> è chiamata “numero di
 Questo parametro misura la potenziale trasmissibilità di una malattia infettiva,In altre parole se il fattore <i>R</i><sub>0</sub> di una malattia infettiva è circa 2, significa che in media un singolo malato infetterà due persone. Quanto maggiore è il valore di <i>R</i><sub>0</sub> e tanto più elevato è il rischio di diffusione dell’epidemia. 
 Se invece il valore di <i>R</i><sub>0</sub> fosse inferiore ad 1 ciò significa che l’epidemia può essere contenuta.
 
-<p>Da quando l'epidemia del nuovo coronavirus, SARS-CoV-2, emerso in Cina ha cominciato a diffondersi e sono iniziati a circolare i dati sui primi casi confermati, l'Organizzazione Mondiale della Sanità (OMS) e numerosi istituti di ricerca di tutto il mondo hanno diffuso stime di <i>R</i><sub>0</sub> dell'infezione. 
-Queste stime sono comprese tra 1,4 e 3,8 nelle aree colpite in questa prima fase di diffusione <a href="https://www.iss.it/primo-piano/-/asset_publisher/o4oGR9qmvUz9/content/id/5268851" rel="nofollow" target="_blank">[2]</a>.
-
-Implementando il modello e simulando la sua dinamica, cioè la sua evoluzione nel tempo, quello che otteniamo è un grafico tipo quello che vediamo in Fig.2
+Implementando il modello e simulando la sua dinamica, cioè la sua evoluzione nel tempo, con dei valori fittizi di quello che otteniamo è un grafico tipo quello che vediamo in Fig.2
 
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/1.embed"></iframe> 
 
@@ -290,7 +287,7 @@ Questa curva raggiunge un picco e poi decade. Il picco è più o meno alto e pi�
 <h3>Perchè il picco è importante?</h3>
 Il picco è una caratteristica da tenere in considerazione in quanto rappresenta il numero massimo di Infetti (I) in un giorno. 
     
-La seguente figura compara due casi: nel primo caso, curva rossa, la diffusione dell'epidemi è veloce e comporta il raggiungimento di un picco molto alto e vicino nel tempo; nel secondo caso, curva blu, il picco è più basso e più lontano nel tempo.
+La seguente figura 2 compara due casi: nel primo caso, curva rossa, la diffusione dell'epidemi è veloce e comporta il raggiungimento di un picco molto alto e vicino nel tempo; nel secondo caso, curva blu, il picco è più basso e più lontano nel tempo.
 Nel grafico, inoltre, si può vedere una linea orizzontale nera che rappresenta la capacità si posti in terapia intensiva del SSN. 
 Come riportato nelle statistiche, nel caso specifico del SARS-CoV-2, circa un 20% di Infetti sviluppa delle complicazioni tali per cui è necessario un ricovero in terapia intensiva: conoscere il picco di contagi aiuterebbe a stimare quante persone potrebbero aver bisogno della terapia intensiva e
 confrontando questo con il numero effettivo dei posti disponibili in terapia intensiva si potrebbe stimare se il SSN collasserebbe oppure riuscirebbe a far fronte all'avanzata dell'epidemia.
@@ -307,15 +304,39 @@ sta avvenendo in Cina, anche le misure di allontanamento sociale (ad es. la sosp
 Queste misure come in effeti si sta verificando in Cina, comporterebbero riduzioni del numero di riproduzione di base, <i>R</i><sub>0</sub>, agendo sul coefficiente <i>β</i>.
 
 <h3>Qual'è la situazione Italiana? </h3> 
-Per conoscere la situazione Italiana possiamo fare una simulazione utilizando il modello SIR e anche andare a vedere cosa dicon i dati veri (disponibili sul sito del ministero e <a href="http://opendatadpc.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR0BA9-8pFQ9iFX-R_FWSAfx258ZkivxzwZ-9lu0ghnjK2R6VpJZJa0uz7w#/b0c68bce2cce478eaac82fe38d4138b1" >della protezione civile </a>]  
-    
-    
-    In figura 4 è mostrata la riduzione progressiva, secondo l'OMS, dei posti in terapia intensiva in Italia, ogni 100000 abitanti.
+<p>
+Per conoscere la situazione Italiana possiamo fare una simulazione utilizando il modello SIR e anche andare a vedere cosa dicon i dati veri (disponibili sul sito del ministero e <a href="http://opendatadpc.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR0BA9-8pFQ9iFX-R_FWSAfx258ZkivxzwZ-9lu0ghnjK2R6VpJZJa0uz7w#/b0c68bce2cce478eaac82fe38d4138b1" >della protezione civile </a>.
+
+Iniziamo con i dati dei posti letto in terapia intensiva. In figura 3 è mostrato l'andamento negli anni, secondo l'OMS, del numero dei posti in terapia intensiva in Italia, ogni 100000 abitanti. (non c'è bisogno di dire che è una diminizione progressiva che ci porta sotto alla media europea)
 Secondo i dati disponibili, aggironati al 2013, l'Italia ha 275 posti, ogni 100000 abitanti, in terapia intensiva.
-Questo significa che in totale in Italia sono a dispisizione 165000.
+Questo significa che in totale, in Italia, sono a dispisizione 165000.
 
 <img src="/ICU_beds_per_100 000.png" width="1000" height="400" alt="WHO">      
-</p>
+    
+Un altro dato di cui abbiamo bisogno è il valore di <i>R</i><sub>0</sub> da cui ricaveremo <i>β</i> e <i>γ</i>.
+    <p>Da quando l'epidemia del nuovo coronavirus, SARS-CoV-2, emerso in Cina ha cominciato a diffondersi e sono iniziati a circolare i dati sui primi casi confermati, l'Organizzazione Mondiale della Sanità (OMS) e numerosi istituti di ricerca di tutto il mondo hanno diffuso stime di <i>R</i><sub>0</sub> dell'infezione. 
+Queste stime sono comprese tra 1.4 e 3.8 nelle aree colpite in questa prima fase di diffusione <a href="https://www.iss.it/primo-piano/-/asset_publisher/o4oGR9qmvUz9/content/id/5268851" rel="nofollow" target="_blank">[2]</a>.
+Supponiamo di considerare il caso peggione e prendere <i>R</i><sub>0</sub>=3.8 siccome <i>γ</i> = 1/14, dove 14 sono i giorni in cui una persona ouò essere infettiva, otteniamo che <i>R</i><sub>0</sub>*<i>γ</i> = <i>β</i>: quindi <i>β</i>=3.8/14 = 0.271.
+Utilizzando questi valori nel modello SIR otteniamo landamento della figura 4:
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/11.embed"></iframe>      
+COme si può vedere il la curva arancione è sopra la curva nera: questo indica che i posti in terapia in tensiva non riusciranno a soddisfare il bisogno dei pazienti.
+Siccome questo scenario è abbastanza catastrofico dobbiamo aggungere un paio di precisazioni:
+- i valori usati nel modello sono quelli stimati dalla situazionie cinese e inoltre una stima accurata di <i>R</i><sub>0</sub> è possibile solo (purtroppo) alla fine dell'epidemia.
+- questi valori non tengono conto delle misure di contenimento che, come abbiamo visto, abbassano il picco e permettono un trattamento più efficace.
+- come viene detto da alcuni giorni, è probabile che il virus circoli in Italia da parecchio tempo e quindi potrebbe esserci stato un qualche effetto di immunizzazione sulla popolazione di cui non siamo a conoscenza che potrebbe abbassare ulteriormente il picco degli Infetti
+
+Quindi niente panico ma EVITATE I CONTATTI.
+
+<h3>Le politiche di contenimento funzionano?</h3>
+
+Per rispondere a questa domanda andiamo a vedere cosa dicono i dati reali. In figura 5 sono mostrate due curve: ina rappresenta l'andamento delle morti nella Provincia di Hubei e l'altro in Italia.
+La provincis di Hubei, dove si trova Wuhan, ha circa la stessa popolazione dell'Italia, quindi confrontare queste due realtà e più coerente che confrontare tutta la Cina con L'Italia.
+Le due curve sono allineate e partono entrambe dal giorno in cui gli organoismi ufficili hanno iniziato a rilascire dati (per la Cina il 20 Gennaio 2020 e per l'Italai il 24 Febbraio). L'asse dei tempi per la Cina è in basso, mentre per l'Italia è in alto. 
+Entrambe le curve riportano i dati fino al 14 Marzo 2020.
+Nella figura sono riportate anche l'inizio delle misure di contenimento prese dai due governi: si nota subito che il gorno Italiano, è intervenuto quando la curva stava già assumendo un andamento esponenziale.
+In Cina, invece sono intevenuti quando i valori erano amolto più bassi e dopo circa 35 gionri di misure di contenimento, sembra che le misure si siano allentate (non ci sono ancora fonti ufficili di ciò) ma si può vedere che la curva della Cina sta arrivando a saturazione (cioè non cresce più e si sta mantenendo costante).
+
+ </p>
 
 
 
