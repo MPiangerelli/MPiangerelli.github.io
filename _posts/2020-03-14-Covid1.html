@@ -274,7 +274,7 @@ Questo modello, introdotto da <a href="https://royalsocietypublishing.org/doi/10
       
 Tali <i>equazioni</i> sono <i>equazioni differenziali</i>. Come <i>equazioni</i> esprimono l'idea di uguaglianza tra che ciò che si trova a sinistra e ciò che si trova a destra del simbolo "=". 
 Il fatto che siano <i>equazioni differenziali</i> "descrivono" la variazione di una quantità rispetto ad un'altra.
-A sinistra del simbolo "=" abbiamo i d/dt che leggeremo come "la variazione nel tempo di S(eqauzione 1),I (eqauzione 2) ed R(eqauzione 3) rispettivamente. 
+A sinistra del simbolo "=" abbiamo i d/dt che leggeremo come "la variazione nel tempo di S (equazione 1), I (equazione 2) ed R (equazione 3) rispettivamente. 
 A destra del simbolo "="  abbiamo moltiplicazioni, somme e sottrazioni.
 
       La prima equazione si legge "la variazione nel tempo dei Suscettibili è uguale all'opposto del prodotto tra <i>β</i>, i Suscettibili ed gli Infetti.
@@ -286,17 +286,19 @@ A destra del simbolo "="  abbiamo moltiplicazioni, somme e sottrazioni.
 Se invece il valore di <i>R</i><sub>0</sub> è inferiore ad 1 significa che -in media- un singolo malato infetterà "meno di una persona" e dunque l’epidemia può essere contenuta.
 
 
-      Implementando il modello e simulando al computer la sua dinamica (la sua evoluzione nel tempo con dei valori fittizi, quello che otteniamo è un grafico tipo quello in Fig.2
-
+      Implementando il modello e simulando al computer la sua dinamica (la sua evoluzione nel tempo con dei valori fittizi, quello che otteniamo è un grafico tipo quello in Fig.1
+<figure>
+  
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/1.embed"></iframe> 
-
+<figcaption>Fig.1 - Simulazione del Modello SIR utilizzando paramtri fittizi.</figcaption>
+</figure>
 Le curve indicano, al passare del tempo, la percentuale di individui che appartengono ad ogni compartimento. Notiamo, in paricolare, la curva rossa (quella degli Infetti):
       essa raggiunge un picco e poi decade. Tale picco è <i>più o meno</i> alto e <i>più o meno</i> traslato nel tempo, a seconda dei parametri <i>β</i> e <i>γ</i>. 
 
 <h4>Perchè il picco è importante?</h4>
 Il picco è una caratteristica da tenere in considerazione: rappresenta il numero massimo di Infetti in un giorno. 
     
-La seguente figura 2 compara due casi: 
+La Fig.2 compara due casi: 
    <ul>
   <li>curva rossa: la diffusione dell'epidemia è veloce e si ha un picco molto alto e "vicino nel tempo";</ li>
   <li>curva blu: la diffusione dell'epidemia è meno veloce e si ha un picco più e più "lontano nel tempo"</li>
@@ -310,7 +312,10 @@ Confrontando questo con il numero effettivo dei posti disponibili in terapia int
 
       Le curve arancione e celeste rappresentano il 20% degli Infetti rispettivamente nel primo (curva rossa) e nel secondo caso (curva blu) di epidemia. Come si può notare, nel primo caso il SSN non riuscirebbe a far fronte al numero dei ricoveri in terapia intensiva: la curva arancione è nel momento del picco sopra la curva nera. Nel secondo caso il SSN riuscirebbe a sistemare tutti i pazienti in terapia intensiva: la curva celeste è al di sotto della curva nera.
   
+<figure> 
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/7.embed"></iframe>
+<figcaption>Fig.2 - Andamento degli Infetti in due scenari diversi.</figcaption>
+</figure> 
       </p>
 <p> 
 La domanda che occorrerebbe porsi è "come si può passare dalla curva rossa alla curva blu, dando quindi tempo al SSN di assorbire i casi acuti?" La Matematica (e il modello SIR), risponde con la NECESSITA' di ridurre il valore del coefficiente <i>β</i>. In pratica è necessario ridurre il tasso di contagio EVITANDO I CONTATTI CON ALTRE PERSONE E QUINDI SEMPLICEMENTE STANDO A CASA E USANDO MISURE PROTETTIVE.
@@ -318,7 +323,7 @@ La domanda che occorrerebbe porsi è "come si può passare dalla curva rossa all
     Stare TUTTI (non solo i malati) a casa si rende necessario in quanto la maggior parte dei contagiati dal virus è asintomatico (non mostra i sintomi e non sa di essere malato), ma può infettare gli altri. 
 Limitare i contatti serve soprattuto ad evitare che gli asintomatici possano infettare le persone con cui vengono a contatto.
 
-    Prorpiro per questo motivo il Governo ha varato delle misure che potrebbero essere definite di "allontanamento sociale" (la sospensione di aggregazioni pubbliche e dei trasporti ...) e di "riduzione della trasmissione per contatto" (ad es. mediante l'uso di misure di protezione personale).
+    Proprio per questo motivo il Governo ha varato delle misure che potrebbero essere definite di "allontanamento sociale" (la sospensione di aggregazioni pubbliche e dei trasporti ...) e di "riduzione della trasmissione per contatto" (ad es. mediante l'uso di misure di protezione personale).
 
     
 In Cina sembrerebbe che tali misure riducano numero di riproduzione di base <i>R</i><sub>0</sub>, agendo sul coefficiente <i>β</i>.
@@ -329,19 +334,22 @@ Per comprendere la situazione Italiana possiamo leggere i dati reali (disponibil
 fare una simulazione utilizzando il modellp SIR (stimado i valori <i>β</i> e <i>γ</i>).
  
 
-    Il primo dato (reale) che ci occorre conoscere è quelo dei posti letto in terapia intensiva. In Fig. 3 è mostrato l'andamento del numero di tali posti in Italia, secondo l'Organizzazione Mondiale della Sanità (OMS).
+    Il primo dato (reale) che ci occorre conoscere è quelo dei posti letto in terapia intensiva. In Fig.3 è mostrato l'andamento del numero di tali posti in Italia, secondo l'Organizzazione Mondiale della Sanità (OMS).
 al 2013 il numero (che progressivamente è sceso sotto la media Europea) è 275 ogni 100000 abitanti. Ciò significa che, in totale, l'Italia ha a disposizione circa 165000 posti letto in terapia intensiva
-
+<figure> 
 <img src="/ICU_beds_per_100 000.png" width="1000" height="400" alt="WHO">      
-    
+<figcaption>Fig.3 - Andamento degli Infetti in due scenari diversi.</figcaption>
+</figure>     
 Occurre poi conscere il valore di <i>R</i><sub>0</sub>, da cui ricaveremo <i>β</i> e <i>γ</i>.
     <p>Da quando il coronavirus, SARS-CoV-2, ha iniziato a diffondersi l'OMS e altri istituti di ricerca hanno diffuso <i>stime</i> di <i>R</i><sub>0</sub>. 
 I valori di <i>R</i><sub>0</sub> vanno da <a href="https://www.iss.it/primo-piano/-/asset_publisher/o4GR9qmvUz9/content/id/5268851" rel="nofollow" target="_blank">1.4 a 3.8</a>.
 Nella nostra simulazione si è deciso di usare il caso "peggiore", ovvero <i>R</i><sub>0</sub>=3.8. Dal momento che <i>γ</i> = 1/14 (14 sono i giorni in cui una persona infetta può infettare altri; al passare dei 14 giorni la persona viene definita recuperata) otteniamo che <i>R</i><sub>0</sub>*<i>γ</i> = <i>β</i>, quindi <i>β</i>=3.8/14 = 0.271.
 
-        Utilizzando questi valori nel modello SIR, otteniamo l'andamento della Fig. 4:
+        Utilizzando questi valori nel modello SIR, otteniamo l'andamento della Fig.4:
+<figure>
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/11.embed"></iframe>      
-
+<figcaption>Fig.4 - Simulazione del modello con parametri "reali". Questo scenario è quello che potrebbe accadere in Italia.</figcaption>
+</figure>
         
  Descriviamo il grafico in figura:
 <ul>
@@ -359,20 +367,23 @@ I dati che leggiamo risultano particolarmente allarmanti e catastrofici. Dobbiam
  <li> in questa simulazione non si sta tenendo conto delle misure di contenimento che, come abbiamo visto, abbassano e "rallentano" il picco;
  <li> è probabile che il virus stia circolando in Italia da molto tempo (inizi/metà gennaio); se ciò fosse vero potrebbero esserci stati degli effetti di immunizzazione sulla popolazione di cui non siamo a conoscenza, che potrebbero abbassare ulteriormente il picco degli Infetti.
 </ul>
-Cosa fare? Ninete panico, ma evitate i contatti!       
+Cosa fare? Niente panico, ma evitate i contatti!       
         
 
 
 <h4>Le politiche di contenimento funzionano?</h4>
 
-Per comprender se le politiche di contenimento e di allontanamento sociale funzionino è necessario "leggere" cosa dicono i dati reali. In Fig. 5 sono mostrate due curve che rappresentano l'andamento delle morti nella Provincia di Hubei (curva rossa) e in Italia (curva verde).
+Per comprender se le politiche di contenimento e di allontanamento sociale funzionino è necessario "leggere" cosa dicono i dati reali. In Fig. 5 sono mostrate due curve che rappresentano l'andamento dei nuovi contagi giornalieri nella Provincia di Hubei (curva rossa) e in Italia (curva verde).
 La provincia di Hubei, dove si trova Wuhan, ha circa la stessa popolazione dell'Italia: confrontare queste due realtà è più coerente che confrontare tutta la Cina con l'Italia.
 Le due curve sono allineate: partono entrambe dal giorno in cui i ripsettivi organismi ufficiali hanno iniziato a rilasciare indati (20 Gennaio 2020 per la Cina e 24 Febbraio 2020 per l'Italia).
 L'asse dei tempi per la Cina è in basso, mentre per l'Italia è in alto. Entrambe le curve riportano i dati fino al 14 Marzo 2020.
-Nella Fig. 5 sono riportate anche l'inizio delle misure di contenimento (lockdown) prese dai due Governi: il Governo Italiano è intervenuto quando la curva stava già assumendo un andamento esponenziale;
+Nella Fig.5 sono riportate anche l'inizio delle misure di contenimento (lockdown) prese dai due Governi: il Governo Italiano è intervenuto quando la curva stava già assumendo un andamento esponenziale;
 il Coverno Cinese è intevenuti quando i valori erano molto più bassi. Dopo 35 giorni di misure di contenimento, fonti NON ufficiali diachiarano che le misure siano state allentate.
 Notiamo che la curva della della provincia di Hubei sta arrivando a saturazione: non cresce/decresce e si sta mantenendo costante.
+<figure>
 <img src="/Lockdown_tot.png" width="1000" height="400" alt="Lockdown_tot"> 
+<figcaption>Fig.5 - andamento dei nuovi contagi giornalieri nella Provincia di Hubei e in Italia .</figcaption>
+</figure>
  </p>
 
 
