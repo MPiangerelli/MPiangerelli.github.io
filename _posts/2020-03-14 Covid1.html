@@ -344,42 +344,34 @@ Nella nostra simulazione si è deciso di usare il caso "peggiore", ovvero <i>R</
 
         
  Descriviamo il grafico in figura:
-- curva blu: la popolazione totale, che può essere infettata;
-- curva verde: la popolazione che non è più infetta (che guariscono o muoiono):
-- curva rossa: la popolazione infetta e che può infettare gli altri;
-- curva arancione: la popolazione infetta e che può infettare gli altri che richiede cure in terapia intensiva;
-- curva nera: posti disponibili in terapia intensiva.
-
-Notiamo che la curva nera è notevolmente sotto la curva arancione: questo indica che i posti interapia intensiva non riusciranno a soddisfare il bisogno dei pazienti. 
+<ul>
+ <li> curva blu: la popolazione totale, che può essere infettata;
+ <li> curva verde: la popolazione che non è più infetta;
+ <li> curva rossa: la popolazione infetta e che può infettare gli altri;
+ <li> curva arancione: la popolazione infetta, che può infettare gli altri e che richiede cure in terapia intensiva;
+ <li> curva nera: posti disponibili in terapia intensiva.
+</ul>
+Notiamo che la curva nera è notevolmente sotto la curva arancione: questo indica che i posti in terapia intensiva non riusciranno a soddisfare il bisogno dei pazienti. 
 
 I dati che leggiamo risultano particolarmente allarmanti e catastrofici. Dobbiamo però tener conto di alcune riflessioni:
-- il valore R0 è solo una stima (l'esatto valore si consocerà solo alla fine dell'epidemia) e descrivono la realtà cinese (che potrebbe essere differente da quella italiana):
-- in questa simulazione non si sta tenendo conto delle misure di contenimento che, come abbiamo visto, abbassano e "rallentano" il picco;
-- è probabile che il virus stia circolando in Italia da molto tempo (inizi/metà gennaio); se ciò fosse vero potrebbero esserci stati degli effetti di immunizzazione sulla popolazione di cui non ne siamo a conoscenza, che potrebbe abbassare ulteriormente il picco degli Infetti.
-
+<ul>
+ <li> il valore <i>R</i><sub>0</sub>è solo una stima (l'esatto valore si consocerà solo alla fine dell'epidemia) e descre la realtà cinese (che potrebbe essere differente da quella italiana);
+ <li> in questa simulazione non si sta tenendo conto delle misure di contenimento che, come abbiamo visto, abbassano e "rallentano" il picco;
+ <li> è probabile che il virus stia circolando in Italia da molto tempo (inizi/metà gennaio); se ciò fosse vero potrebbero esserci stati degli effetti di immunizzazione sulla popolazione di cui non siamo a conoscenza, che potrebbero abbassare ulteriormente il picco degli Infetti.
+</ul>
 Cosa fare? Ninete panico, ma evitate i contatti!       
         
-        
-        
-        
-        
-        Come si può vedere il la curva arancione è sopra la curva nera: questo indica che i posti in terapia in tensiva non riusciranno a soddisfare il bisogno dei pazienti.
-Siccome questo scenario è abbastanza catastrofico dobbiamo aggungere un paio di precisazioni:
-<ul>
-  <li> i valori usati nel modello sono quelli stimati dalla situazionie cinese e inoltre una stima accurata di <i>R</i><sub>0</sub> è possibile solo (purtroppo) alla fine dell'epidemia.
-  <li> questi valori non tengono conto delle misure di contenimento che, come abbiamo visto, abbassano il picco e permettono un trattamento più efficace.
-  <li>come viene detto da alcuni giorni, è probabile che il virus circoli in Italia da parecchio tempo e quindi potrebbe esserci stato un qualche effetto di immunizzazione sulla popolazione di cui non siamo a conoscenza che potrebbe abbassare ulteriormente il picco degli Infetti
-</ul>
-Quindi niente panico ma EVITATE I CONTATTI.
 
-<h3>Le politiche di contenimento funzionano?</h3>
 
-Per rispondere a questa domanda andiamo a vedere cosa dicono i dati reali. In figura 5 sono mostrate due curve: ina rappresenta l'andamento delle morti nella Provincia di Hubei e l'altro in Italia.
-La provincis di Hubei, dove si trova Wuhan, ha circa la stessa popolazione dell'Italia, quindi confrontare queste due realtà e più coerente che confrontare tutta la Cina con L'Italia.
-Le due curve sono allineate e partono entrambe dal giorno in cui gli organoismi ufficili hanno iniziato a rilascire dati (per la Cina il 20 Gennaio 2020 e per l'Italai il 24 Febbraio). L'asse dei tempi per la Cina è in basso, mentre per l'Italia è in alto. 
-Entrambe le curve riportano i dati fino al 14 Marzo 2020.
-Nella figura sono riportate anche l'inizio delle misure di contenimento prese dai due governi: si nota subito che il gorno Italiano, è intervenuto quando la curva stava già assumendo un andamento esponenziale.
-In Cina, invece sono intevenuti quando i valori erano amolto più bassi e dopo circa 35 gionri di misure di contenimento, sembra che le misure si siano allentate (non ci sono ancora fonti ufficili di ciò) ma si può vedere che la curva della Cina sta arrivando a saturazione (cioè non cresce più e si sta mantenendo costante).
+<h4>Le politiche di contenimento funzionano?</h4>
+
+Per comprender se le politiche di contenimento e di allontanamento sociale funzionino è necessario "leggere" cosa dicono i dati reali. In Fig. 5 sono mostrate due curve che rappresentano l'andamento delle morti nella Provincia di Hubei (curva rossa) e in Italia (curva verde).
+La provincia di Hubei, dove si trova Wuhan, ha circa la stessa popolazione dell'Italia: confrontare queste due realtà è più coerente che confrontare tutta la Cina con l'Italia.
+Le due curve sono allineate: partono entrambe dal giorno in cui i ripsettivi organismi ufficiali hanno iniziato a rilasciare indati (20 Gennaio 2020 per la Cina e 24 Febbraio 2020 per l'Italia).
+L'asse dei tempi per la Cina è in basso, mentre per l'Italia è in alto. Entrambe le curve riportano i dati fino al 14 Marzo 2020.
+Nella Fig. 5 sono riportate anche l'inizio delle misure di contenimento (lockdown) prese dai due Governi: il Governo Italiano è intervenuto quando la curva stava già assumendo un andamento esponenziale;
+il Coverno Cinese è intevenuti quando i valori erano molto più bassi. Dopo 35 giorni di misure di contenimento, fonti NON ufficiali diachiarano che le misure siano state allentate.
+Notiamo che la curva della della provincia di Hubei sta arrivando a saturazione: non cresce/decresce e si sta mantenendo costante.
 <img src="/Lockdown_tot.png" width="1000" height="400" alt="Lockdown_tot"> 
  </p>
 
