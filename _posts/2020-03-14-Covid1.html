@@ -267,9 +267,9 @@ Questo modello, introdotto da <a href="https://royalsocietypublishing.org/doi/10
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-  \[{dS \over dt} = -\beta SI  1)\]
-  \[{dI \over dt} = -\beta SI + \gamma I 2)\]
-  \[{dR \over dt} = \gamma I 3)\]
+  \[{dS \over dt} = -\beta SI  ~~~1)\]
+  \[{dI \over dt} = -\beta SI + \gamma I ~~~2)\]
+  \[{dR \over dt} = \gamma I ~~~3)\]
 
       
 Tali <i>equazioni</i> sono <i>equazioni differenziali</i>. Come <i>equazioni</i> esprimono l'idea di uguaglianza tra che ciò che si trova a sinistra e ciò che si trova a destra del simbolo "=". 
@@ -288,11 +288,10 @@ Se invece il valore di <i>R</i><sub>0</sub> è inferiore ad 1 significa che -in 
 
       Implementando il modello e simulando al computer la sua dinamica (la sua evoluzione nel tempo con dei valori fittizi, quello che otteniamo è un grafico tipo quello in Fig.1
 <figure>
-  
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/1.embed"></iframe> 
 <figcaption>Fig.1 - Simulazione del Modello SIR utilizzando paramtri fittizi.</figcaption>
 </figure>
-
+<p>
       Le curve indicano, al passare del tempo, la percentuale di individui che appartengono ad ogni compartimento. Notiamo, in paricolare, la curva rossa (quella degli Infetti):
       essa raggiunge un picco e poi decade. Tale picco è <i>più o meno</i> alto e <i>più o meno</i> traslato nel tempo, a seconda dei parametri <i>β</i> e <i>γ</i>. 
 
@@ -343,7 +342,8 @@ dell'Organizzazione Mondiale della Sanità (OMS), al 2009, il numero di posti in
 <img src="/acutecaremedicine.png" width="1000" height="400" alt="WHO">      
 <figcaption>Fig.3 - Andamento degli Infetti in due scenari diversi.</figcaption>
 </figure>     
-Occurre poi conscere il valore di <i>R</i><sub>0</sub>, da cui ricaveremo <i>β</i> e <i>γ</i>.
+<p>
+    Occurre poi conscere il valore di <i>R</i><sub>0</sub>, da cui ricaveremo <i>β</i> e <i>γ</i>.
     <p>Da quando il coronavirus, SARS-CoV-2, ha iniziato a diffondersi l'OMS e altri istituti di ricerca hanno diffuso <i>stime</i> di <i>R</i><sub>0</sub>. 
 I valori di <i>R</i><sub>0</sub> vanno da <a href="https://www.iss.it/primo-piano/-/asset_publisher/o4GR9qmvUz9/content/id/5268851" rel="nofollow" target="_blank">1.4 a 3.8</a>.
 Nella nostra simulazione si è deciso di usare il caso "peggiore", ovvero <i>R</i><sub>0</sub>=3.8. Dal momento che <i>γ</i> = 1/14 (14 sono i giorni in cui una persona infetta può infettare altri; al passare dei 14 giorni la persona viene definita recuperata) otteniamo che <i>R</i><sub>0</sub>*<i>γ</i> = <i>β</i>, quindi <i>β</i>=3.8/14 = 0.271.
@@ -354,7 +354,7 @@ Nella nostra simulazione si è deciso di usare il caso "peggiore", ovvero <i>R</
 <figcaption>Fig.4 - Simulazione del modello con parametri "reali". Questo scenario è quello che potrebbe accadere in Italia.</figcaption>
 </figure>
         
-
+<p>
         Descriviamo il grafico in figura:
 <ul>
  <li> curva blu: la popolazione totale, che può essere infettata;
@@ -388,7 +388,7 @@ Notiamo che la curva della della provincia di Hubei sta arrivando a saturazione:
 <img src="/Lockdown_tot.png" width="1000" height="400" alt="Lockdown_tot"> 
 <figcaption>Fig.5 - andamento dei nuovi contagi giornalieri nella Provincia di Hubei e in Italia .</figcaption>
 </figure>
-    
+<p>    
  </p>
 
 
