@@ -149,7 +149,7 @@ collections:
     description: 
     feature_text: |
       Welcome to my blog
-      (In this blog all the opinion are personal and represent only the authors' point of view)
+      - In this blog all the opinion are personal and represent only the authors' point of view
     feature_image: "/amalassunta.jpg"
     #"https://picsum.photos/2560/600?image=866"
 
