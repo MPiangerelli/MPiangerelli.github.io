@@ -311,11 +311,11 @@ Se invece il valore di <i>R</i><sub>0</sub> è inferiore ad 1 significa che -in 
       
 
       In Fig.2, inoltre, si può vedere una linea orizzontale nera: questa rappresenta la capacità di posti in terapia intensiva del SSN. 
-Come riportato nelle statistiche[referenza], nel caso specifico del SARS-CoV-2, circa un 20% di Infetti sviluppa delle complicazioni tali per cui è necessario un ricovero in terapia intensiva.
+Come riportato nelle <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30627-9/fulltext"> statistiche</a>, nel caso specifico del SARS-CoV-2, circa un 11% di Infetti sviluppa delle complicazioni tali per cui è necessario un ricovero in terapia intensiva.
 Conoscere il picco di contagi aiuterebbe a stimare quante persone potrebbero aver bisogno della terapia intensiva.
 Confrontando questo con il numero effettivo dei posti disponibili in terapia intensiva si potrebbe stimare se il SSN <i>collasserebbe</i> oppure <i>riuscirebbe a far fronte</i> all'avanzata dell'epidemia.
 
-      In Fig.2 le curve arancione e celeste rappresentano il 20% degli Infetti rispettivamente nel primo (curva rossa) e nel secondo caso (curva blu) di epidemia. Come si può notare, nel primo caso il SSN non riuscirebbe a far fronte al numero dei ricoveri in terapia intensiva: la curva arancione è nel momento del picco sopra la curva nera. Nel secondo caso il SSN riuscirebbe a sistemare tutti i pazienti in terapia intensiva: la curva celeste è al di sotto della curva nera.
+      In Fig.2 le curve arancione e celeste rappresentano l'11% degli Infetti rispettivamente nel primo (curva rossa) e nel secondo caso (curva blu) di epidemia. Come si può notare, nel primo caso il SSN non riuscirebbe a far fronte al numero dei ricoveri in terapia intensiva: la curva arancione è nel momento del picco sopra la curva nera. Nel secondo caso il SSN riuscirebbe a sistemare tutti i pazienti in terapia intensiva: la curva celeste è al di sotto della curva nera.
   
 <figure> 
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/7.embed"></iframe>
@@ -343,7 +343,7 @@ fare una simulazione utilizzando il modello SIR (stimado i valori <i>β</i> e <i
  
 <p>
     Il primo dato (reale) che ci occorre conoscere è quelo dei posti letto in terapia intensiva. In Fig.3 è riportata una tabella presa dall'articolo <a href="https://link.springer.com/article/10.1007/s00134-012-2627-8">The variability of critical care bed numbers in Europe</a>  (di Rhodes et all.) apparso nel 2012 nella rivista Intensive Care Medicine. 
-    Dall’articolo si evince che al 2009 il numero di posti in terapia intesiva (ICU and IMCU beds) è di 12.5 ogni 100000 abitanti. Calcolando tale numero per l’intera popolazione italiana (60 milioni di abitanti) abbiamo, in totle, circa 7500 posti letto in terapia intensiva.
+    Dall’articolo si evince che al 2009 il numero di posti in terapia intesiva (ICU and IMCU beds) è di 12.5 ogni 100000 abitanti. Calcolando tale numero per l’intera popolazione italiana (60 milioni di abitanti) abbiamo, in totale, circa 7500 posti letto in terapia intensiva.
     
     <figure> 
 <img src="/acutecaremedicine.png" width="1000" height="400" alt="WHO">      
@@ -385,26 +385,41 @@ Cosa fare? Niente panico, ma evitate i contatti!
 
 <h4>Le politiche di contenimento funzionano?</h4>
 <p>
-Per comprender se le politiche di contenimento e di allontanamento sociale funzionino è necessario "leggere" cosa dicono i dati reali. In Fig. 5 sono mostrate due curve che rappresentano l'andamento dei nuovi contagi giornalieri nella Provincia di Hubei (curva rossa) e in Italia (curva verde).
+Per comprendere se le politiche di contenimento e di allontanamento sociale funzionino è necessario "leggere" cosa dicono i dati reali. In Fig. 5 sono mostrate due curve che rappresentano l'andamento dei nuovi contagi giornalieri nella Provincia di Hubei (curva rossa) e in Italia (curva verde).
 La provincia di Hubei, dove si trova Wuhan, ha circa la stessa popolazione dell'Italia: confrontare queste due realtà è più coerente che confrontare tutta la Cina con l'Italia.
-Le due curve sono allineate: partono entrambe dal giorno in cui i rispettivi organismi ufficiali hanno iniziato a rilasciare indati (20 Gennaio 2020 per la Cina e 24 Febbraio 2020 per l'Italia).
+Le due curve sono allineate: partono entrambe dal giorno in cui i dati sono stati confermati dai rispettivi organismi ufficiali (20 Gennaio 2020 per la Cina e 24 Febbraio 2020 per l'Italia). Bisosogna dire, però, che i primi contagi in entrambi i paesi sono avvenuti almeno un mese prima di tali date.
 L'asse dei tempi per la Cina è in basso, mentre per l'Italia è in alto. Entrambe le curve riportano i dati fino al 14 Marzo 2020.
 Nella Fig.5 sono riportate anche l'inizio delle misure di contenimento (Lockdown) prese dai due Governi: il Governo Italiano è intervenuto quando la curva stava già assumendo un andamento esponenziale;
 il Governo Cinese è intevenuto quando i valori erano molto più bassi. Dopo 35 giorni di misure di contenimento, fonti NON ufficiali diachiarano che le misure siano <a href="https://www.repubblica.it/esteri/2020/03/06/news/coronavirus_cina-250489446/">state allentate</a>.
 Notiamo che la curva della della provincia di Hubei sta arrivando a saturazione: non cresce/decresce e si sta mantenendo costante.
-<figure>
+Questo comportamento si discosta un po' dal modello teorico (SIR) dove il picco è netto ed è suguito da una riduzione dei contagiati.
+    La differenza tra teoria e realtà potrebbe essere dovuta a diversi fattori fattori pratici nel procedimemto di processamento dei dati ed anche al fatto che i 14 giorni di infettività sono, in realtà, una media.
+    <figure>
 <img src="/Lockdown_tot.png" width="1000" height="400" alt="Lockdown_tot"> 
 <figcaption>Fig.5 - andamento dei nuovi contagi giornalieri nella Provincia di Hubei e in Italia .</figcaption>
 </figure>
-    
+ <p> 
+     Guardiamo solo la situazione Italiana e facciamo riferimento alla Fig.6. Qui sono sono presenti dei pallini neri, che rappresentano i dati reali dei nuovi contagi giornalieri, e due curve: una arancione ed una blu.
+     La curva blu rappresenta l'andamento dai dati, approssimato con una curva esponenziale (il fit), fino al giorno in cui il Governo Italiano non ha decretato le misure di contenimento (Lockdown);
+     la curva arancione rappresenta l'andamento dei dati comprende il fit dei dati considerando anche i giorni successivi all'emanazione del decreto.
+     Si vede che la curva arancione ha una pendenza minore della curva blu, indicando un rallentamento nelle previsioni contagi. 
+     Ovviamente la differenza tra le due curve è minima e un dato effettivo sull'efficacia delle misure di contenimento si potrà avere solo tra qualche giorno.
+     
     
     
 <figure>
-    <a href="https://plot.ly/~marcasti/15/" target="_blank" title="Plot 15" style="display: block; text-align: center;"><img src="https://plot.ly/~marcasti/15.png" alt="Plot 15" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="marcasti:15" src="https://plot.ly/embed.js" async></script>
+    <iframe width="1000" height="800" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/17.embed"></iframe>
     <figcaption>Fig.6 - andamento dei nuovi contagi giornalieri nella Provincia di Hubei e in Italia .</figcaption>
 </figure>   
 <p>    
+Per concludere si può affermare che:
+ <ul>
+ <li> i modelli mostrano che il SSN potrebbe essere messo a dura prova dal SARS-CoV-2
+ <li> i dati confermano l'aumento dei casi giornalieri e provano che il picco dei casi Italiani deve ancora arrivare
+ <li> i dati mostrano che dall'entrata in vigore dalle procedure di "isolamento sociale"
+ <li> 
+</ul>   
+    
  </p>
 
 
