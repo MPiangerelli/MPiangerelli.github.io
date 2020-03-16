@@ -249,9 +249,7 @@
 
 <h4>Il Virus</h4>
 
-
-
-      Il coronavirus si è <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">diffuso</a> subito in molti paesi, tra cui l'Italia, creando non pochi problemi e costringendo i governi a varare misure eccezionali per cercare di contenere la sua diffusione e non gravare sui vari sistemi sanitari.
+      Il Coronavirus si è <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">diffuso</a> subito in molti paesi, tra cui l'Italia, creando non pochi problemi e costringendo i governi a varare misure eccezionali per cercare di contenere la sua diffusione e non gravare sui vari sistemi sanitari.
 
 In questo post si cercherà di spiegare, utilizzando modelli matematici, come si diffonde un virus e perchè il virus Sars-CoV-2 è "pericoloso" per il SSN Italiano. Infine commenteremo qualche dato per comprendere la motivaione delle misure di contenimento prese dal Governo Italiano.
 
@@ -352,9 +350,9 @@ fare una simulazione utilizzando il modello SIR (stimado i valori <i>β</i> e <i
 <img src="/acutecaremedicine1.png" width="1000" height="400" alt="WHO">      
 <figcaption><i>Fig.3 - Tabella che descrive il numero dei posti letto nei paesi europei (dati Organizzazione Mandiale dellea Sanità).</i></figcaption>
 </figure>     
-<p>
-    Occorre poi conoscere il valore di <i>R</i><sub>0</sub>, da cui ricaveremo <i>β</i> e <i>γ</i>.
-    <p>Da quando il coronavirus, SARS-CoV-2, ha iniziato a diffondersi l'Organizzazion Mondiale della Sanità (OMS) e altri istituti di ricerca hanno diffuso <i>stime</i> di <i>R</i><sub>0</sub>. 
+<p> Occorre poi conoscere il valore di <i>R</i><sub>0</sub>, da cui ricaveremo <i>β</i> e <i>γ</i>.
+
+    Da quando il Coronavirus, SARS-CoV-2, ha iniziato a diffondersi l'Organizzazion Mondiale della Sanità (OMS) e altri istituti di ricerca hanno diffuso <i>stime</i> di <i>R</i><sub>0</sub>. 
 I valori di <i>R</i><sub>0</sub> vanno da <a href="https://www.iss.it/primo-piano/-/asset_publisher/o4GR9qmvUz9/content/id/5268851" rel="nofollow" target="_blank">1.4 a 3.8</a>.
 Nella nostra simulazione si è deciso di usare il caso "peggiore", ovvero <i>R</i><sub>0</sub>=3.8. Dal momento che <i>γ</i> = 1/14 (14 sono i giorni in cui una persona infetta può infettare altri, al passare dei 14 giorni la persona viene definita recuperata) otteniamo che <i>R</i><sub>0</sub>*<i>γ</i> = <i>β</i>, quindi <i>β</i>=3.8/14 = 0.271.
 
@@ -399,36 +397,36 @@ Questo comportamento si discosta un po' dal modello teorico (SIR) dove il picco 
     La differenza tra teoria e realtà potrebbe essere dovuta a diversi fattori fattori pratici nel procedimemto di processamento dei dati ed anche al fatto che i 14 giorni di infettività sono, in realtà, una media.
     <figure>
 <img src="/Lockdown_tot.png" width="1000" height="400" alt="Lockdown_tot"> 
-<figcaption><i>Fig.5 - andamento dei nuovi contagi giornalieri nella Provincia di Hubei e in Italia</i> .</figcaption>
+<figcaption><i>Fig.5 - Andamento dei nuovi contagi giornalieri nella Provincia di Hubei e in Italia</i> .</figcaption>
 </figure>
  <p> 
      Guardiamo solo la situazione Italiana e facciamo riferimento alla Fig.6. Qui sono presenti dei pallini neri, che rappresentano i dati reali dei nuovi contagi giornalieri, e due curve: una arancione ed una blu.
      La curva blu rappresenta l'andamento dai dati, approssimato con una curva esponenziale (il fit), fino al giorno in cui il Governo Italiano non ha decretato le misure di contenimento (Lockdown);
      la curva arancione rappresenta l'andamento dei dati comprende il fit dei dati considerando anche i giorni successivi all'emanazione del decreto.
-     Si vede che la curva arancione ha una pendenza minore della curva blu, indicando un rallentamento nelle previsioni contagi. 
-     Ovviamente la differenza tra le due curve è minima e un dato effettivo sull'efficacia delle misure di contenimento si potrà avere solo tra qualche giorno.
+     La differenza tra curva arancione e quella blu è mininima, tuttavi notiamo due pendenze diverse. Si può notare che c'è sato un effettivo (anche se minimo) rallentamento nelle previsioni degli Infetti:
+     l'efficacia delle misure di contenimento si potrà stabilere solo ripetendo tali analisi tra qualche giorno.
      
-    
-    
+
 <figure>
     <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/21.embed"></iframe>
    
     <figcaption><i>Fig.6 - andamento dei nuovi contagi giornalieri nella Provincia di Hubei e in Italia</i> .</figcaption>
 </figure>   
 <p>    
-
     Per concludere si può affermare che:
  <ul>
- <li> i modelli mostrano che il SSN potrebbe essere messo a dura prova dal SARS-CoV-2
- <li> i dati confermano l'aumento dei casi giornalieri e provano che il picco dei casi Italiani deve ancora arrivare
- <li> i dati mostrano che dall'entrata in vigore dalle procedure di "isolamento sociale" c'è stata una riduzione della velocità dei contagi ma non così marcata e solo nei prossimi giorni potremo vedere se queste misure hanno avuto realmente effetto.  
- <li> <b>rimanere a casa, evitare i contatti ed usare sturmenti di protezione  </b> rimangono la strategia da perseguire se si vogliono vedere differenze sostanziali tra le due curve nei prossimi giorni e per limitare e rallentare il contagio.
+ <li> i modelli mostrano che il SSN potrebbe essere messo a dura prova dal SARS-CoV-2;
+ <li> i dati confermano l'aumento dei casi giornalieri e provano che il picco dei casi italiani deve ancora arrivare (probabilmente entro metà Aprile);
+ <li> i dati mostrano che, dall'entrata in vigore dalle misure di "isolamento sociale", si è rilevata una lieve riduzione della velocità dei contagi ma solo nei prossimi si potrà determinare se tali misure hanno avuto realmente effetto;
+ <li> <b>rimanere a casa, evitare i contatti ed usare sturmenti di protezione  </b> rimangono la strategia da perseguire se si vogliono ottenere differenze sostanziali tra le due curve in Fig.6, al fine di limitare e rallentare il contagio.
 </ul>   
     
-    
+   In aggionramento... 
  </p>
 
+Marco Piangerelli
 
+Renato De Leone
 
     <div class="share">
   
