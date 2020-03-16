@@ -244,37 +244,39 @@
   &nbsp;·&nbsp;<time datetime="2019-10-10T00:00:00+01:00" class="time">10 Oct 2019</time>
 </small>
 
-    <p>In questi giorni l'attenzione di tutti è per il virus SARS-CoV-2, comunemente chiamato "Il coronavirus".
-        Esso è stato individuato per la prima volta nella città di Wuhan in Cina il 31-12-2019 avendo una rapida diffusione e creando la situazione di cui tutti sono venuti a conoscenza (guarda la <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen" rel="nofollow" target="_blank">cronistoria</a>).
+    <p>In questi giorni l'attenzione di tutti è per il virus SARS-CoV-2, comunemente chiamato "Coronavirus".
+        Esso è stato individuato per la prima volta nella città di Wuhan in Cina il 31-12-2019 e ha avuto una rapida diffusione (guarda la <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen" rel="nofollow" target="_blank">cronistoria</a>).
 
 <h4>Il Virus</h4>
 
 
-Il coronavirus si è <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">diffuso</a> subito in molti paesi, tra cui l'Italia, creando non pochi problemi e costringendo il governi a varare misure eccezionali per cercare di contenere la sua diffusione e non gracare sui vari sistemi sanitari..
 
-In questo post si spiegherà, utilizzando modelli matematici, come si diffonde un virus, perchè questo virus è pericoloso per il SSN Italiano e commenteremo qualche dato per capire il perchè delle misure di contenimento prese dal Governo Italiano.
+      Il coronavirus si è <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">diffuso</a> subito in molti paesi, tra cui l'Italia, creando non pochi problemi e costringendo i governi a varare misure eccezionali per cercare di contenere la sua diffusione e non gravare sui vari sistemi sanitari.
+
+In questo post si cercherà di spiegare, utilizzando modelli matematici, come si diffonde un virus e perchè il virus Sars-CoV-2 è "pericoloso" per il SSN Italiano. Infine commenteremo qualche dato per ccomplrendere la motivaione delle misure di contenimento prese dal Governo Italiano.
 
 <h4>Il Modello SIR</h4>
 
-L'Epidemiologia, cioè la scienza che studia la diffusione delle epidemie, ha sviluppato dei modelli matematici/computazionali per cercare di studiare l'andamento e prevedere parametri importanti nella diffusione delle epidemie. 
+
+      L'Epidemiologia, cioè la scienza che studia la diffusione delle epidemie, ha sviluppato dei modelli matematici-computazionali per cercare di studiare l'andamento e prevedere parametri importanti nella diffusione delle epidemie. 
 
       Uno di questi modelli è il SIR, acronimo di Susceptible-Infected-Recovered (Suscettibili-Infetti-Recuperati).
-Questo modello, introdotto da <a href="https://royalsocietypublishing.org/doi/10.1098/rspa.1927.0118" rel="nofollow" target="_blank">[Kermack and McKendrick</a> nel 1927, è un cosiddetto modello compartimentale poichè suddivide la popolazione in tre compartimenti (S, I, ed R) e simula cosa potrebbe succedere, al passare del tempo, agli individui appartententi a queste popolazioni.
+ Questo modello, introdotto da <a href="https://royalsocietypublishing.org/doi/10.1098/rspa.1927.0118" rel="nofollow" target="_blank">Kermack and McKendrick</a> nel 1927, è un cosiddetto modello compartimentale poichè suddivide la popolazione in tre compartimenti (S, I, ed R) e simula cosa potrebbe succedere, al passare del tempo, agli individui appartententi a queste popolazioni.
       Come ogni modello, esso <i>cerca</i> di descrivere la realtà, partendo da alcune ipotesi iniziali), ma <i>non è</i> la realtà. 
-      Ciò che accade realmente è molto complesso e occorre comprendere che, pur essendo questi modelli delle buone approssimazioni, essi non sono precisi.
+      Ciò che accade realmente è molto complesso e occorre comprendere che, pur essendo questo modello una buona approssimazione, esso non è esatto.
 
       Per chi fosse curioso, le equazioni che descrivono il modello SIR sono riportate di seguito:
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-  \[{dS \over dt} = -\beta SI  ~~~1)\]
-  \[{dI \over dt} = -\beta SI + \gamma I ~~~2)\]
-  \[{dR \over dt} = \gamma I ~~~3)\]
+  \[{dS \over dt} = -\beta SI  ~~~~~(1)\]
+  \[{dI \over dt} = -\beta SI + \gamma I ~~~(2)\]
+  \[{dR \over dt} = \gamma I ~~~~~(3)\]
 
       
 Tali <i>equazioni</i> sono <i>equazioni differenziali</i>. Come <i>equazioni</i> esprimono l'idea di uguaglianza tra che ciò che si trova a sinistra e ciò che si trova a destra del simbolo "=". 
 Il fatto che siano <i>equazioni differenziali</i> "descrivono" la variazione di una quantità rispetto ad un'altra.
-A sinistra del simbolo "=" abbiamo i d/dt che leggeremo come "la variazione nel tempo di S (equazione 1), I (equazione 2) ed R (equazione 3) rispettivamente. 
+A sinistra del simbolo "=" abbiamo i d/dt che leggeremo come "la variazione nel tempo di S (1), I (2) ed R (3) rispettivamente. 
 A destra del simbolo "="  abbiamo moltiplicazioni, somme e sottrazioni.
 
       La prima equazione si legge "la variazione nel tempo dei Suscettibili è uguale all'opposto del prodotto tra <i>β</i>, i Suscettibili ed gli Infetti.
@@ -296,7 +298,8 @@ Se invece il valore di <i>R</i><sub>0</sub> è inferiore ad 1 significa che -in 
       essa raggiunge un picco e poi decade. Tale picco è <i>più o meno</i> alto e <i>più o meno</i> traslato nel tempo, a seconda dei parametri <i>β</i> e <i>γ</i>. 
 
 <h4>Perchè il picco è importante?</h4>
-Il picco è una caratteristica da tenere in considerazione: rappresenta il numero massimo di Infetti in un giorno. 
+
+      Il picco è una caratteristica da tenere in considerazione: rappresenta il numero massimo di Infetti in un giorno. 
     
 La Fig.2 compara due casi: 
    <ul>
