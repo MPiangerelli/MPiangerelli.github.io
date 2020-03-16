@@ -288,32 +288,33 @@ A destra del simbolo "="  abbiamo moltiplicazioni, somme e sottrazioni.
 Se invece il valore di <i>R</i><sub>0</sub> è inferiore ad 1 significa che -in media- un singolo malato infetterà "meno di una persona" e dunque l’epidemia può essere contenuta.
 
 
-      Implementando il modello e simulando al computer la sua dinamica (la sua evoluzione nel tempo con dei valori fittizi, quello che otteniamo è un grafico tipo quello in Fig.1
+      Implementando il modello e simulando al computer la sua dinamica (la sua evoluzione nel tempo con dei valori fittizi), quello che otteniamo è un grafico tipo quello in Fig.1
 <figure>
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/1.embed"></iframe> 
 <figcaption>Fig.1 - Simulazione del Modello SIR utilizzando paramtri fittizi.</figcaption>
 </figure>
 <p>
-      Le curve indicano, al passare del tempo, la percentuale di individui che appartengono ad ogni compartimento. Notiamo, in paricolare, la curva rossa (quella degli Infetti):
+      Le curve indicano, al passare del tempo, la percentuale di individui che appartengono ad ogni compartimento. Descriviamo la curva rossa (quella degli Infetti):
       essa raggiunge un picco e poi decade. Tale picco è <i>più o meno</i> alto e <i>più o meno</i> traslato nel tempo, a seconda dei parametri <i>β</i> e <i>γ</i>. 
 
 <h4>Perchè il picco è importante?</h4>
 
       Il picco è una caratteristica da tenere in considerazione: rappresenta il numero massimo di Infetti in un giorno. 
     
-La Fig.2 compara due casi: 
+
+      La Fig.2 compara due casi: 
    <ul>
   <li>curva rossa: la diffusione dell'epidemia è veloce e si ha un picco molto alto e "vicino nel tempo";</ li>
   <li>curva blu: la diffusione dell'epidemia è meno veloce e si ha un picco più e più "lontano nel tempo"</li>
 </ul>   
       
 
-      Nel grafico, inoltre, si può vedere una linea orizzontale nera: questa rappresenta la capacità di posti in terapia intensiva del SSN. 
+      In Fig.2, inoltre, si può vedere una linea orizzontale nera: questa rappresenta la capacità di posti in terapia intensiva del SSN. 
 Come riportato nelle statistiche[referenza], nel caso specifico del SARS-CoV-2, circa un 20% di Infetti sviluppa delle complicazioni tali per cui è necessario un ricovero in terapia intensiva.
 Conoscere il picco di contagi aiuterebbe a stimare quante persone potrebbero aver bisogno della terapia intensiva.
 Confrontando questo con il numero effettivo dei posti disponibili in terapia intensiva si potrebbe stimare se il SSN <i>collasserebbe</i> oppure <i>riuscirebbe a far fronte</i> all'avanzata dell'epidemia.
 
-      Le curve arancione e celeste rappresentano il 20% degli Infetti rispettivamente nel primo (curva rossa) e nel secondo caso (curva blu) di epidemia. Come si può notare, nel primo caso il SSN non riuscirebbe a far fronte al numero dei ricoveri in terapia intensiva: la curva arancione è nel momento del picco sopra la curva nera. Nel secondo caso il SSN riuscirebbe a sistemare tutti i pazienti in terapia intensiva: la curva celeste è al di sotto della curva nera.
+      In Fig.2 le curve arancione e celeste rappresentano il 20% degli Infetti rispettivamente nel primo (curva rossa) e nel secondo caso (curva blu) di epidemia. Come si può notare, nel primo caso il SSN non riuscirebbe a far fronte al numero dei ricoveri in terapia intensiva: la curva arancione è nel momento del picco sopra la curva nera. Nel secondo caso il SSN riuscirebbe a sistemare tutti i pazienti in terapia intensiva: la curva celeste è al di sotto della curva nera.
   
 <figure> 
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/7.embed"></iframe>
@@ -322,7 +323,8 @@ Confrontando questo con il numero effettivo dei posti disponibili in terapia int
       </p>
 <p> 
 
-    La domanda che occorrerebbe porsi è "come si può passare dalla curva rossa alla curva blu, dando quindi tempo al SSN di assorbire i casi acuti?" La Matematica (e il modello SIR), risponde con la NECESSITA' di ridurre il valore del coefficiente <i>β</i>. In pratica è necessario ridurre il tasso di contagio EVITANDO I CONTATTI CON ALTRE PERSONE E QUINDI SEMPLICEMENTE STANDO A CASA E USANDO MISURE PROTETTIVE.
+    La domanda che occorrerebbe porsi è "come si può passare dalla curva rossa alla curva blu, dando quindi tempo al SSN di assorbire i casi acuti?" La Matematica (e il modello SIR), risponde con la NECESSITA' di ridurre il valore del coefficiente <i>β</i>. 
+    In pratica è necessario ridurre il tasso di contagio EVITANDO I CONTATTI CON ALTRE PERSONE: SEMPLICEMENTE STANDO A CASA E USANDO MISURE PROTETTIVE.
 
     Stare TUTTI (non solo i malati) a casa si rende necessario in quanto la maggior parte dei contagiati dal virus è asintomatico (non mostra i sintomi e non sa di essere malato), ma può infettare gli altri. 
 Limitare i contatti serve soprattuto ad evitare che gli asintomatici possano infettare le persone con cui vengono a contatto.
@@ -335,21 +337,22 @@ In Cina sembrerebbe che tali misure riducano numero di riproduzione di base <i>R
 <h4>Qual è la situazione Italiana? </h4> 
 <p>
 
-    Per comprendere la situazione Italiana possiamo leggere i dati reali (disponibili sul sito della <a href="http://opendatadpc.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR0BA9-8pFQ9iFX-R_FWSAfx258ZkivxzwZ-9lu0ghnjK2R6VpJZJa0uz7w#/b0c68bce2cce478eaac82fe38d4138b1" >della protezione civile </a> e 
-fare una simulazione utilizzando il modellp SIR (stimado i valori <i>β</i> e <i>γ</i>).
+    Per comprendere la situazione Italiana possiamo leggere i dati reali (disponibili sul sito della <a href="http://opendatadpc.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR0BA9-8pFQ9iFX-R_FWSAfx258ZkivxzwZ-9lu0ghnjK2R6VpJZJa0uz7w#/b0c68bce2cce478eaac82fe38d4138b1" >della protezione civile </a>) e possiamo
+fare una simulazione utilizzando il modello SIR (stimado i valori <i>β</i> e <i>γ</i>).
  
-
-    Il primo dato (reale) che ci occorre conoscere è quelo dei posti letto in terapia intensiva. In Fig.3 è riportata una tabella presa da <a href="https://link.springer.com/article/10.1007/s00134-012-2627-8">un articolo scientifico</a> apparso nella rivista Intensive Care Medicine. Secondo questo articolo, che riporta anche dati 
-dell'Organizzazione Mondiale della Sanità (OMS), al 2009, il numero di posti in terapia intesiva è di 12.5 ogni 100000 abitanti. Ciò significa che, in totale, l'Italia ha a disposizione circa 7500 posti letto in terapia intensiva,
-<figure> 
+<p>
+    Il primo dato (reale) che ci occorre conoscere è quelo dei posti letto in terapia intensiva. In Fig.3 è riportata una tabella presa dall'articolo <a href="https://link.springer.com/article/10.1007/s00134-012-2627-8">The variability of critical care bed numbers in Europe</a>  (di Rhodes et all.) apparso nel 2012 nella rivista Intensive Care Medicine. 
+    Dall’articolo si evince che al 2009 il numero di posti in terapia intesiva (ICU and IMCU beds) è di 12.5 ogni 100000 abitanti. Calcolando tale numero per l’intera popolazione italiana (60 milioni di abitanti) abbiamo, in totle, circa 7500 posti letto in terapia intensiva.
+    
+    <figure> 
 <img src="/acutecaremedicine.png" width="1000" height="400" alt="WHO">      
-<figcaption>Fig.3 - Andamento degli Infetti in due scenari diversi.</figcaption>
+<figcaption>Fig.3 - Tabella che descrive il numero dei posti letto nei paesi europei (dati Organizzazione Mandiale dellea Sanità)  .</figcaption>
 </figure>     
 <p>
-    Occurre poi conscere il valore di <i>R</i><sub>0</sub>, da cui ricaveremo <i>β</i> e <i>γ</i>.
-    <p>Da quando il coronavirus, SARS-CoV-2, ha iniziato a diffondersi l'OMS e altri istituti di ricerca hanno diffuso <i>stime</i> di <i>R</i><sub>0</sub>. 
+    Occorre poi conoscere il valore di <i>R</i><sub>0</sub>, da cui ricaveremo <i>β</i> e <i>γ</i>.
+    <p>Da quando il coronavirus, SARS-CoV-2, ha iniziato a diffondersi l'Organizzazion Mondiale della Sanità (OMS) e altri istituti di ricerca hanno diffuso <i>stime</i> di <i>R</i><sub>0</sub>. 
 I valori di <i>R</i><sub>0</sub> vanno da <a href="https://www.iss.it/primo-piano/-/asset_publisher/o4GR9qmvUz9/content/id/5268851" rel="nofollow" target="_blank">1.4 a 3.8</a>.
-Nella nostra simulazione si è deciso di usare il caso "peggiore", ovvero <i>R</i><sub>0</sub>=3.8. Dal momento che <i>γ</i> = 1/14 (14 sono i giorni in cui una persona infetta può infettare altri; al passare dei 14 giorni la persona viene definita recuperata) otteniamo che <i>R</i><sub>0</sub>*<i>γ</i> = <i>β</i>, quindi <i>β</i>=3.8/14 = 0.271.
+Nella nostra simulazione si è deciso di usare il caso "peggiore", ovvero <i>R</i><sub>0</sub>=3.8. Dal momento che <i>γ</i> = 1/14 (14 sono i giorni in cui una persona infetta può infettare altri, al passare dei 14 giorni la persona viene definita recuperata) otteniamo che <i>R</i><sub>0</sub>*<i>γ</i> = <i>β</i>, quindi <i>β</i>=3.8/14 = 0.271.
 
         Utilizzando questi valori nel modello SIR, otteniamo l'andamento della Fig.4:
 <figure>
@@ -379,7 +382,7 @@ Cosa fare? Niente panico, ma evitate i contatti!
 
 
 <h4>Le politiche di contenimento funzionano?</h4>
-
+<p>
 Per comprender se le politiche di contenimento e di allontanamento sociale funzionino è necessario "leggere" cosa dicono i dati reali. In Fig. 5 sono mostrate due curve che rappresentano l'andamento dei nuovi contagi giornalieri nella Provincia di Hubei (curva rossa) e in Italia (curva verde).
 La provincia di Hubei, dove si trova Wuhan, ha circa la stessa popolazione dell'Italia: confrontare queste due realtà è più coerente che confrontare tutta la Cina con l'Italia.
 Le due curve sono allineate: partono entrambe dal giorno in cui i ripsettivi organismi ufficiali hanno iniziato a rilasciare indati (20 Gennaio 2020 per la Cina e 24 Febbraio 2020 per l'Italia).
