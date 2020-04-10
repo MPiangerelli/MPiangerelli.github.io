@@ -404,20 +404,26 @@ Questo comportamento si discosta un po' dal modello teorico (SIR) dove il picco 
      la curva arancione rappresenta l'andamento dei dati comprende il fit dei dati considerando anche i giorni successivi all'emanazione del decreto.
      La differenza tra curva arancione e quella blu è mininima, tuttavi notiamo due pendenze diverse. Si può notare che c'è sato un effettivo (anche se minimo) rallentamento nelle previsioni degli Infetti:
      l'efficacia delle misure di contenimento si potrà stabilere solo ripetendo tali analisi tra qualche giorno. 16/03/2020 -->
-      Guardiamo solo la situazione Italiana e facciamo riferimento alla Fig.6. Qui sono presenti dei pallini neri, che rappresentano i dati reali dei nuovi contagi giornalieri, e due curve: una arancione ed una blu.
+      Guardiamo solo la situazione Italiana e facciamo riferimento alla Fig.6. Qui sono presenti dei pallini neri, che rappresentano i dati reali dei nuovi contagi cumulati giornalieri, e due curve: una arancione ed una blu.
      La curva blu rappresenta l'andamento dai dati, approssimato con una curva esponenziale (il fit), fino al giorno in cui il Governo Italiano non ha decretato le misure di contenimento (Lockdown);
      la curva arancione rappresenta l'andamento dei dati comprende il fit dei dati considerando anche i giorni successivi all'emanazione del decreto e fino al 15/03/2020.
      La curva verde rappresenta la stessa situazione della curva arancione ma fino al 17/03/2020.
      La differenza tra curva arancione e quella blu è mininima, tuttavia notiamo due pendenze diverse. Si può notare che c'è sato un effettivo (anche se minimo) rallentamento nelle previsioni degli Infetti;
      se guardiamo la curva verde, questa ha una pendenza minore sia della curva blue che della curva arancione indicando ancora un abbassamento del nuemero di Infetti. 
      Bisogna continuare a favorire questa tendenza.
-     Ad Oggi 27-03-2020 la tendenza migliore dei dati è quella della curva marrone in Fig.6: i dati non hanno più un andamento esponenziale (che peraltro si era affievolito col tempo) ma l'andamento mostra una rallentamento nei contagi.
-     Purtroppo questa tendenza potrebbe non essere quella effettiva poichè come si sa il munero degli infetti dipende abbastanza fortemente dal numero dei tamponi (pochi) che vengono effettuati e quindi i contagi che risu.tano dai dati potrebbero essere (anzi sono) sottostimati. 
+     <!--Ad Oggi 27-03-2020 la tendenza migliore dei dati è quella della curva marrone in Fig.6: i dati non hanno più un andamento esponenziale (che peraltro si era affievolito col tempo) ma l'andamento mostra una rallentamento nei contagi.-->
+     Oggi, 8 Aprile, si può vedere che i modelli esponenziali (curve blu, arancione, verde, giallo e celeste) usati inizialmente per descrivere i dati non riescono più a descriverli in maniera soddisfacente (curva marrone). Questo ha determinato la scelta di un modello diverso: si sono scelti un modello gaussiano (curva a campana), rappresentato dalla curva rosa, e un modello logistico (o curva sigmoide), rappresentao dalla curva viola.
+     Si nota subito che il modello logistico è quello che descive meglio i dati raccolti fino a questo punto. Il modello logistico è descritto da una curva che ad un certo punto arriva ad un valore costante e anche se la variabile sull'asse orizzontale crcesce, ad esempio il tempo, la corrispondente valore sull'asse y non aumenta.
+     Questa andamento è, teoricamente, in linea con quello che ci aspetteremmo di vedere: molto semplicemente significa che abbiamo raggiunto una situazione per cui tutti i soggetti infettabili sono stati infettati e quindi, non essendoci più nessuno suscettibile, il fenomeno epidemico è destinato ad estenguersi. E' importante ribadire che i dati descrivono i nuovi contagi cumalati giornaliere e quindi non si vedrà mai questi dati andare a zero. 
+     Ma vedendo i dati si potrebbe capire che non ci sono più nuovi conatagi quando il numero dei nuovi contagiati rimarrà costante per un determinato periodo (lungo) di tempo
+     Ovviamente la curva sigmoide potrebbe raggiungere la situazione stazionaria, ovvero di "non crescita", molto lentamente.
+     Purtroppo questa tendenza potrebbe non essere quella effettiva poichè come si sa il munero degli infetti dipende abbastanza fortemente dal numero dei tamponi (pochi) che vengono effettuati e quindi i contagi che risultano dai dati potrebbero essere (anzi sono) sottostimati. 
 
 <figure>
     <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/21.embed"></iframe> -->
     <!--<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plot.ly/~marcasti/29.embed"></iframe>-->
-    <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~marcasti/35.embed"></iframe>
+    <!-- <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~marcasti/35.embed"></iframe>-->
+    <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~marcasti/43.embed"></iframe>
     <figcaption><i>Fig.6 - andamento dei nuovi contagi giornalieri nella Provincia di Hubei e in Italia</i> .</figcaption>
 </figure>   
 <p>    
@@ -428,7 +434,7 @@ Questo comportamento si discosta un po' dal modello teorico (SIR) dove il picco 
  <li> i dati mostrano che, dall'entrata in vigore dalle misure di "isolamento sociale", si è rilevata una lieve riduzione della velocità dei contagi ma solo nei prossimi si potrà determinare se tali misure hanno avuto realmente effetto; ora possiamo dire che qualcoso sta cambiando, ma bisogna essere consapevoli delle stime (a ribasso) del numero degli infetti.
  <li> <b>rimanere a casa, evitare i contatti ed usare sturmenti di protezione  </b> rimangono le strategie da perseguire se si vogliono ottenere differenze sostanziali tra le curve in Fig.6, al fine di limitare e rallentare il contagio.
 </ul>   
-   (Aggiornato al 27/03/2020) 
+   (Aggiornato al 8/04/2020) 
    In aggiornamento... 
  </p>
 
