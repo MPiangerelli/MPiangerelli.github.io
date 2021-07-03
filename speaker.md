@@ -45,6 +45,8 @@ feature_image: "/merc.jpg"
 - Tutorial on Topological data analysis - KDWeb 2016, Cagliari, Italy
 
 
+# Seminars  
+- [Nuove ed emergenti prospettive per la società digitale](https://computerscience.unicam.it/content/nuove-ed-emergenti-prospettive?fbclid=IwAR2dJmGFC4h8eVkYNu_iJO9qzOzO4tMRwkV7TJIxTiwWiBbJiE5M3TXbMx8)
 
 
 
