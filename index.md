@@ -8,7 +8,7 @@ aside: false
 
 ---
 
-Computer Science Division & Math Division <br>
+Computer Science Division  <br>
 Polo 'Carla Lodovici' <br>
 via Madonna delle Carceri 7 <br>
 marco[dot]piangerelli[at]unicam[dot]it
