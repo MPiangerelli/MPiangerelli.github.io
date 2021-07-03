@@ -1,7 +1,7 @@
 ---
 title: News
 layout: page
-feature_image: "/pollock1.jpg"
+feature_image: "/AngeloRibelleGiallo.png"
 aside: false
 
 ---
