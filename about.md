@@ -17,9 +17,9 @@ In 2012, I was a visited student at [Cornell University](http://cornell.edu) for
 I got a PHD in Computer Science at [University of Camerino](https://computerscience.unicam.it) under the supervision of Prof.ssa [Emanuela Merelli](http://www.emanuelamerelli.eu) with a thesis on Topological Data analysis for studying the emergence of epileptic seizures.
 During this period I collaborated with an Italian company, [ab medica s.r.l.](http://abmedica.it), for the development of an implantable device for detecting and controlling epiletic seizures.
 
-I worked in the [Da.Re. Project](http://dare-project.eu), an European Erasmus+ project, whose aim was to establish a European Master Degree Curriculm in Data Science.
+I worked in the [Da.Re. Project](http://dare-project.eu), an European Erasmus+ project, whose aim was to establish a European Master Degree Curriculm in Data Science. Moreover I partecipated to the TREE project working with Prof. [Renato De Leone](http://www.unicam.it/~renato.deleone).
 
-Currently, I am a post-doc at University of Camerino working with Prof. [Renato De Leone](http://www.unicam.it/~renato.deleone) on the T.R.E.E. Project.
+Currently, I am a post-doc at University of Camerino working with Prof. [Flavio Corradini](https://www.cs.unicam.it/corradini/) on the SIMPLE project.
 
 I am a member of the [Bioshape and Data Science Lab](http://www.emanuelamerelli.eu/bigdata/doku.php) of which Prof.ssa Emanuela Merelli is the coordinator. 
 
