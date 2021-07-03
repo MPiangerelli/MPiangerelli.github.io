@@ -116,6 +116,9 @@ navigation_header:
 #  url: https://progettolignani.netlify.com
 - title: Blog
   url: /blog/
+  
+- title: News
+  url: /news/
 #- title: virtual Blog
 #  url: /bolt-opl/index-2.html
 
