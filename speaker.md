@@ -34,7 +34,6 @@ feature_image: "/merc.jpg"
 
 # Invited Speaker
 
-- [Virtual Workshop - Future Tech Week](http://www.topdrim.eu/FutureTech-Week2019), Camerino, Italy
 
 - [Algoritmic Aspect of Temporal Graphs II](http://community.dur.ac.uk/george.mertzios/Workshops/ICALP-19-Satellite/Temporal-Graphs-ICALP-2019.html), ICAL19 - Patras, Greece
 
@@ -46,7 +45,9 @@ feature_image: "/merc.jpg"
 
 
 # Seminars  
-- [Nuove ed emergenti prospettive per la società digitale](https://computerscience.unicam.it/content/nuove-ed-emergenti-prospettive?fbclid=IwAR2dJmGFC4h8eVkYNu_iJO9qzOzO4tMRwkV7TJIxTiwWiBbJiE5M3TXbMx8)
+- [Nuove ed emergenti prospettive per la società digitale](https://computerscience.unicam.it/content/nuove-ed-emergenti-prospettive?fbclid=IwAR2dJmGFC4h8eVkYNu_iJO9qzOzO4tMRwkV7TJIxTiwWiBbJiE5M3TXbMx8), On line
+
+- [Virtual Workshop - Future Tech Week](http://www.topdrim.eu/FutureTech-Week2019), Camerino, Italy
 
 
 
