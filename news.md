@@ -1,7 +1,7 @@
 ---
 title: News
 layout: page
-feature_image: "/AngeloRibelleGiallo.png"
+feature_image: "/AngeloRibelleGiallo.jpg"
 aside: false
 
 ---
