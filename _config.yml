@@ -103,9 +103,9 @@ navigation_header:
   url: /about/
 - title: Research & Publications
   url: /research/
-- title: Teaching
-  url: /teaching/
-  url: /teaching1.html
+#- title: Teaching
+ ## url: /teaching/
+ # url: /teaching1.html
 - title: Projects
   url: /projects/
 - title: Dissemination
@@ -152,6 +152,15 @@ collections:
       - In this blog all the opinion are personal and represent only the authors' point of view
     feature_image: "/amalassunta.jpg"
     #"https://picsum.photos/2560/600?image=866"
+ 
+ collections:
+  posts:
+    title: Teaching
+    output: true
+    description: 
+    feature_text:   
+   
+    feature_image: "/amalassunta.jpg"
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   Twitter: "#0d94e7"
