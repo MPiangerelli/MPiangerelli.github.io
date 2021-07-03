@@ -1,7 +1,7 @@
 ---
 title: Short Bio
 layout: page
-feature_image: "/pollock1.jpg"
+feature_image: "/AngeloRibelleGiallo1.jpg"
 aside: false
 
 ---
