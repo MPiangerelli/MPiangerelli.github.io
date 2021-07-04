@@ -100,7 +100,7 @@ navigation_header:
 - title: Home
   url: /
 - title: About
-  url: /about1.html/
+  url: /about1.html
 - title: Research & Publications
   url: /research/
 - title: Teaching
