@@ -1,7 +1,7 @@
 ---
 title: Short Bio
 layout: page
-feature_image: "/AngeloRibelleGiallo1.jpg"
+feature_image: "/licini-4.jpg"
 aside: false
 
 ---
