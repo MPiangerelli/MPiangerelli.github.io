@@ -45,7 +45,7 @@ feature_image: "/merc.jpg"
 
 
 # Seminars  
-- [Nuove ed emergenti prospettive per la società digitale](https://computerscience.unicam.it/content/nuove-ed-emergenti-prospettive?fbclid=IwAR2dJmGFC4h8eVkYNu_iJO9qzOzO4tMRwkV7TJIxTiwWiBbJiE5M3TXbMx8), On line
+- [Nuove ed emergenti prospettive per la società digitale](https://computerscience.unicam.it/nuove-ed-emergenti-prospettive-la-societa-digitale), On line
 
 - [Virtual Workshop - Future Tech Week](http://www.topdrim.eu/FutureTech-Week2019), Camerino, Italy
 
