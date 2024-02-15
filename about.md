@@ -21,7 +21,9 @@ I worked in the [Da.Re. Project](http://dare-project.eu), an European Erasmus+ p
 
 Currently, I am a post-doc at University of Camerino working with Prof. [Flavio Corradini](https://www.cs.unicam.it/corradini/) on the SIMPLE project.
 
-I am a member of the [Bioshape and Data Science Lab](http://www.emanuelamerelli.eu/bigdata/doku.php) of which Prof.ssa Emanuela Merelli is the coordinator. 
+I am a member of the [Processes and services (Pros) Lab](https://pros.unicam.it) of which Prof Flavio Corradini is the coordinator.
+
+I am, also, a member of the [Bioshape and Data Science Lab](http://www.emanuelamerelli.eu/bigdata/doku.php) coordinated by Prof.ssa Emanuela. 
 
 I live in Portorecanti, Italy.
 
