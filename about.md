@@ -27,7 +27,7 @@ I live in Portorecanti, Italy.
 
 
 
-My full CV is available [here](Piangerelli_cv_en.pdf).
+My full CV is available [here](cv_eng.pdf).
 
 
 <!--{% include icon.html id="twitter" title="twitter" %} {% include icon.html id="linkedin" title="twitter" %}-->
