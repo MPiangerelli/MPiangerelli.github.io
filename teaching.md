@@ -18,7 +18,17 @@ excerpt: "Category index"
 ### 2019/2020
 - [Machine Learning](http://didattica.cs.unicam.it/doku.php?id=didattica:magistrale:ml:ay_1920:main)
 
+### 2020/2021
+- [Machine Learning](http://didattica.cs.unicam.it/doku.php?id=didattica:magistrale:ml:ay_2021:main)
 
+### 2021/2022
+- [Machine Learning](http://didattica.cs.unicam.it/doku.php?id=didattica:magistrale:ml:ay_2122:main)
+
+### 2022/2023
+- [Machine Learning](http://didattica.cs.unicam.it/doku.php?id=didattica:magistrale:ml:ay_2223:main)
+
+### 2023/2024
+- [Machine Learning](http://didattica.cs.unicam.it/doku.php?id=didattica:magistrale:ml:ay_2324:main)
 
 <!-- <body>
 <footer>
