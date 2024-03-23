@@ -101,6 +101,8 @@ navigation_header:
   url: /research/
 - title: Teaching
   url: /teaching/
+- title: Events
+  url: /events/
 - title: Interests
   url: /interests/
 
