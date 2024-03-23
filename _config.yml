@@ -110,6 +110,8 @@ navigation_header:
   url: /projects/
 - title: Dissemination
   url: /speaker/
+- title: Events
+  url: /Events/
 - title: Interests
   url: /interests/
 #- title: Lignani
