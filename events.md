@@ -23,15 +23,6 @@ Workshop at ACM SIGKDD International Conference on Knowledge Discovery and Data 
       <div <li="" class="item  item--nav">
          <a href="/pollock1.jpg"> <small class="small"> Painting Title: Giallo, Rosso, Blu <br> Author: Jacskon Pollock </small> </a>
       </div>
-          
-    
-<nav class="nav  nav--footer">
-  <ul class="list list--nav">
-      <li class="item  item--nav">
-        <a href="https://alembic.darn.es/">Adapted from Alembic theme</a>   
-      </li>
-  </ul>
-</nav>
 
 
   </div>
