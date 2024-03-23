@@ -16,16 +16,10 @@ Workshop at ACM SIGKDD International Conference on Knowledge Discovery and Data 
 
 
 <footer class="footer">
-  <div class="container">
-    <div class="copyright  typeset">
-        <small class="small"> © Marco Piangerelli 2021 </small>
-   </div>  
-      <div <li="" class="item  item--nav">
+         <div <li="" class="item  item--nav">
          <a href="/pollock1.jpg"> <small class="small"> Painting Title: Giallo, Rosso, Blu <br> Author: Jacskon Pollock </small> </a>
       </div>
 
-
-  </div>
 </footer>
 
 
