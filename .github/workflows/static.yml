@@ -36,3 +36,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: List PDFs that will be deployed
+        run: |
+          echo "PWD: $(pwd)"
+          find . -type f -iname "*.pdf" -printf "%P\n" | sort
