@@ -28,6 +28,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Ensure .nojekyll
+        run: touch .nojekyll
+
+      - name: List PDFs that will be deployed
+        run: |
+          echo "Listing PDFs under repo root:"
+          find . -type f -iname "*.pdf" -printf "%P\n" | sort || true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
@@ -37,7 +45,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: List PDFs that will be deployed
-        run: |
-          echo "PWD: $(pwd)"
-          find . -type f -iname "*.pdf" -printf "%P\n" | sort
+
