@@ -31,8 +31,7 @@ Concept and Data Drift: A Systematic Literature Review. Algorithms, 18, 443. htt
 5. Corradini, F., Mozzoni, L., Piangerelli, M., Re, B., Rossi, L. (2025). A Framework for
 Rapidly Prototyping Data Mining Pipelines. Big Data and Cognitive Computing, 9, 150. https://doi.org/10.3390/bdcc9060150
 6. Corradini, F., Nucci, V., Piangerelli, M., Re, B. (2025). Online Clustering with
-Interpretable Drift Adaptation to Mixed Features. Intelligent Systems with Applications,
-200510. https://doi.org/10.1016/j.iswa.2025.200510
+Interpretable Drift Adaptation to Mixed Features. Intelligent Systems with Applications,200510.https://doi.org/10.1016/j.iswa.2025.200510
 7. Assefa, R., Mamuye, A., Piangerelli, M. (2025). COVID-19 Severity Classification Using
 Hybrid Feature Extraction: Integrating Persistent Homology, Convolutional Neural
 Networks and Vision Transformers. Big Data and Cognitive Computing, 9, 83. https://doi.org/10.3390/bdcc9040083
