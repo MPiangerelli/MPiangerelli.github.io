@@ -1,0 +1,30 @@
+<footer class="footer">
+  <div class="container">
+
+    <div class="copyright typeset">
+      <small class="small">© Marco Piangerelli 2019</small>
+    </div>
+
+    {% if page.footer_painting or page.footer_author %}
+    <div class="typeset">
+      <ul class="list list--nav">
+        <li class="item item--nav">
+          {% if page.footer_image %}
+            <a href="{{ page.footer_image | relative_url }}">
+          {% endif %}
+          <small class="small">
+            {% if page.footer_painting %}Painting Title: {{ page.footer_painting }}{% endif %}
+            {% if page.footer_author %}<br>Author: {{ page.footer_author }}{% endif %}
+          </small>
+          {% if page.footer_image %}
+            </a>
+          {% endif %}
+        </li>
+      </ul>
+    </div>
+    {% endif %}
+
+    {% include nav-footer.html %}
+
+  </div>
+</footer>
