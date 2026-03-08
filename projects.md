@@ -5,7 +5,7 @@ title: Projects@Unicam
 feature_image: "/Giacomo-Balla-Forze-di-paesaggio-+-cocomero-1917-1918-tempera-su-carta-intelata-1030x615.jpg"
 
 
-footer_image: "/boccioni.jpg"
+footer_image: "/Giacomo-Balla-Forze-di-paesaggio-+-cocomero-1917-1918-tempera-su-carta-intelata-1030x615.jpg"
 footer_painting: "Forze di Paessaggio più cocomero"
 footer_author: "Giacomo Balla"
 
