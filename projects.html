@@ -292,23 +292,32 @@
 <footer class="footer">
   <div class="container">
     <div class="copyright  typeset">
-      <small class="small">&copy; Marco Piangerelli 2024</small>
+      <small class="small">&copy; Marco Piangerelli 2026</small>
     </div>
 
     
-<nav class="nav  nav--footer">
-  <ul class="list list--nav">
-    
+{% if page.footer_image %}
+    <div class="typeset">
+      <ul class="list list--nav">
+        <li class="item item--nav">
+          <a href="{{ '/Giacomo-Balla-Forze-di-paesaggio-+-cocomero-1917-1918-tempera-su-carta-intelata-1030x615.jpg' | relative_url }}">
+            <small class="small">
+              Painting Title: Forze di Paesaggio più cocomero<br>
+              Author: Giacomo Balla
+            </small>
+          </a>
+        </li>
+      </ul>
+    </div>
+    {% endif %}
 
-      
-
-      <li class="item  item--nav">
-        <a href="https://alembic.darn.es/">Adapted from Alembic theme</a>
-      </li>
-    
-  </ul>
-</nav>
-
+    <nav class="nav nav--footer">
+      <ul class="list list--nav">
+        <li class="item item--nav">
+          <a href="https://alembic.darn.es/">Adapted from Alembic theme</a>
+        </li>
+      </ul>
+    </nav>
 
   </div>
 </footer>
