@@ -7,7 +7,7 @@ feature_image: "/boccioni.jpg"
 
 footer_painting: "Elasticity"
 footer_author: "Umberto Boccioni"
----
+
 ---
 
 <!--IMG.jpg-->
