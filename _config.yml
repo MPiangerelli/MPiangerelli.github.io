@@ -63,7 +63,7 @@ baseurl: 'https://github.com/MPiangerelli/MPiangerelli.github.io/edit/master'
 title: 'My website'
 description: ''
 permalink: pretty
-logo: "unicam_logo_bianco.png"
+#logo: "unicam_logo_bianco.png"
 
 
 
@@ -71,12 +71,12 @@ logo: "unicam_logo_bianco.png"
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Marco Piangerelli" # Site name or title, also used in jekyll-seo-tag
-logo: "/unicam_logo_bianco.png" # Site logo, also used in jekyll-seo-tag
+#logo: "/unicam_logo_bianco.png" # Site logo, also used in jekyll-seo-tag
 description: "Computer Science Division & Math Division, Polo 'Carla Lodovici', via Madonna delle Carceri, 7" # Site description and default description, also used in jekyll-seo-tag
 url: "https://marcopiangerelli.it/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/MPiangerelli/MPiangerelli.github.io"
-email: "marco.piangerelli-at-unicam.it"
+email: "marco.piangerelli-at-gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
 # google_analytics_anonymize_ip: ''
