@@ -4,7 +4,7 @@ layout: page
 title: Research Interest
 feature_image: "/boccioni.jpg"
 
-
+footer_image: "/boccioni.jpg"
 footer_painting: "Elasticity"
 footer_author: "Umberto Boccioni"
 
