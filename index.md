@@ -13,7 +13,7 @@ footer_author: "Wassily Kandinsky"
 ---
 
 R&D Division ViciVision  <br>
-Vici & C. S.p.a., Santarcangelo di Romagan <br>
+Vici & C. S.p.a., Santarcangelo di Romagna <br>
 via Gutenberg 5 <br>
 marco[dot]piangerelli[at]gmail[dot]com <br>
 marco[dot]piangerelli[at]vici[dot]it
