@@ -5,7 +5,7 @@ title: Research Interest
 feature_image: "/boccioni.jpg"
 
 footer_image: "/boccioni.jpg"
-footer_painting: "Dinamismmo di un footballer"
+footer_painting: "Dinamismo di un footballer"
 footer_author: "Umberto Boccioni"
 
 ---
@@ -63,7 +63,7 @@ Presence of Undetected Cases. Chaos, Solitons and Fractals, 140, 110167.https://
 
 #### [ResearchGate](https://www.researchgate.net/profile/Marco_Piangerelli/research)
 
-A full list of publications is available at the above Google ReserchGate link.
+A full list of publications is available at the above ReserchGate link.
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
