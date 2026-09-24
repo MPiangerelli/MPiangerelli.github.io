@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "MIRACLE"
-description: "Marche Innovation and Research Facilities for Connected and Sustainable Living Environments. Marche Innovation and Research Facilities for Connected and Sustainable Living Environments (2019–2022). POR Marche FESR 2014/2020."
+description: "Marche Innovation and Research Facilities for Connected and Sustainable Living Environments (2019–2022). POR Marche FESR 2014/2020."
 importance: 8
 ---
 
