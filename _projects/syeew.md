@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Syeew: Intelligent Recommendation System for Micro Enterprises
-description: Recommender systems and process mining to foster the professional growth of young people (2022–2024). Client: Eidos S.r.l.
+title: "Syeew"
+description: "Intelligent recommendation system for micro enterprises. Recommender systems and process mining to foster the professional growth of young people (2022–2024). Client: Eidos S.r.l."
 importance: 6
 ---
 

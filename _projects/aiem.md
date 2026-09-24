@@ -1,7 +1,7 @@
 ---
 layout: page
-title: AI.EM: Artificial Intelligence Evolutive Machine
-description: AI for energy-efficient, self-regulating machines in smart manufacturing (2022–2025). Clients: Nuova Simonelli Group S.p.A. and Sigma S.p.A.
+title: "AI.EM"
+description: "Artificial Intelligence Evolutive Machine. AI for energy-efficient, self-regulating machines in smart manufacturing (2022–2025). Clients: Nuova Simonelli Group S.p.A. and Sigma S.p.A."
 importance: 4
 ---
 

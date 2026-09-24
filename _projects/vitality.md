@@ -1,7 +1,7 @@
 ---
 layout: page
-title: VITALITY
-description: PNRR innovation ecosystem for the diffused economy in Central Italy, with the University of Camerino as partner.
+title: "VITALITY"
+description: "PNRR innovation ecosystem for the diffused economy in Central Italy, with the University of Camerino as partner."
 importance: 15
 ---
 

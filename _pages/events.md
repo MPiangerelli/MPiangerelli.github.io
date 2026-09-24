@@ -7,7 +7,6 @@ nav: true
 nav_order: 6
 redirect_from:
   - /events.html
-  - /events.html/
 ---
 
 ## Workshops (programme co-chair)

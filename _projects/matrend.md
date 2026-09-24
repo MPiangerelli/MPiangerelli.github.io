@@ -1,7 +1,7 @@
 ---
 layout: page
-title: MATREND
-description: Materials and Technologies for Improving the Use of Renewable Energy in Smart City Districts (2014–2017). Unicam FAR funds.
+title: "MATREND"
+description: "Materials and Technologies for improving the use of Renewable Energy in smart city Districts. Materials and Technologies for Improving the Use of Renewable Energy in Smart City Districts (2014–2017). Unicam FAR funds."
 importance: 13
 ---
 

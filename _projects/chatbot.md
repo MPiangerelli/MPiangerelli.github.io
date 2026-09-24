@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Chatbot: AI for Conversational Systems
-description: Research and prototyping of NLP techniques for chatbots and automatic response systems (2022). Client: Filippetti S.p.A.
+title: "Chatbot"
+description: "AI for conversational systems. Research and prototyping of NLP techniques for chatbots and automatic response systems (2022). Client: Filippetti S.p.A."
 importance: 7
 ---
 

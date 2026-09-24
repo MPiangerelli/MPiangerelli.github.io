@@ -1,7 +1,7 @@
 ---
 layout: page
-title: RIAB
-description: AI and computer vision for tele-rehabilitation (2025–2028). Client: Bilancio CO2 Zero S.r.l. Role: scientific coordinator.
+title: "RIAB"
+description: "AI and computer vision for tele-rehabilitation (2025–2028). Client: Bilancio CO2 Zero S.r.l. Role: scientific coordinator."
 importance: 1
 ---
 

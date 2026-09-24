@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Unicam 4 VICI: ML for Metrology
-description: Machine learning and computer vision for optical metrology of precision mechanical parts (2024–2027). Client: Vici & C. S.p.A.
+title: "Unicam 4 VICI"
+description: "ML for Metrology. Machine learning and computer vision for optical metrology of precision mechanical parts (2024–2027). Client: Vici & C. S.p.A."
 importance: 3
 ---
 

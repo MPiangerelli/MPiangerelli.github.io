@@ -32,7 +32,6 @@ redirect_from:
   - /about/
   - /about1.html
   - /about.html
-  - /index.html
 ---
 
 I am an Adjunct Professor (INF/01, Computer Science) at the [University of Camerino](https://computerscience.unicam.it) and an AI Engineer in the R&D division of [Vici & C. S.p.A.](https://vici.it), where I work on machine learning for optical metrology.

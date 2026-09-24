@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Lignans: Nutrigenomic Role of Bioactive Compounds Extracted from Legumes
-description: Data analysis and clustering of laboratory data on lignan mixtures (2017–2019). Unicam Doctoral Candidates Research Grant.
+title: "Lignans"
+description: "Nutrigenomic role of bioactive compounds extracted from legumes. Data analysis and clustering of laboratory data on lignan mixtures (2017–2019). Unicam Doctoral Candidates Research Grant."
 importance: 11
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Unicam 4 ACME
-description: ML/DL models for environmental monitoring that react and adapt to change (2025–2027). Client: ACME Lab S.r.l.
+title: "Unicam 4 ACME"
+description: "ML/DL models for environmental monitoring that react and adapt to change (2025–2027). Client: ACME Lab S.r.l."
 importance: 2
 ---
 

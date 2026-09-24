@@ -1,7 +1,7 @@
 ---
 layout: page
-title: SIMPLE: Smart Manufacturing Machine with Predictive Lifetime Electronic Maintenance
-description: Predictive maintenance platform for industrial machines (2019–2022). Clients: SIGMA S.p.A. and Schnell S.p.A.
+title: "SIMPLE"
+description: "Smart Manufacturing Machine with Predictive Lifetime Electronic maintenance. Predictive maintenance platform for industrial machines (2019–2022). Clients: SIGMA S.p.A. and Schnell S.p.A."
 importance: 9
 ---
 

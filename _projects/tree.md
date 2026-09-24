@@ -1,7 +1,7 @@
 ---
 layout: page
-title: T.R.E.E.: Tailored Rehabilitation for the Engagement and Empowerment of Chronically Disabled People
-description: Integrated platform for personalised rehabilitation of chronic disabilities (2017–2020). POR FESR Marche 2014-2020.
+title: "T.R.E.E."
+description: "Tailored Rehabilitation for the Engagement and Empowerment of chronically disabled people. Integrated platform for personalised rehabilitation of chronic disabilities (2017–2020). POR FESR Marche 2014-2020."
 importance: 10
 ---
 

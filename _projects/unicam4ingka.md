@@ -1,7 +1,7 @@
 ---
 layout: page
-title: UNICAM 4 INGKA: Inventory Process Mining
-description: Process mining and machine learning for large-scale inventory management (2022–2024). Client: IKEA IT Aktiebolag.
+title: "UNICAM 4 INGKA"
+description: "Inventory Process Mining. Process mining and machine learning for large-scale inventory management (2022–2024). Client: IKEA IT Aktiebolag."
 importance: 5
 ---
 

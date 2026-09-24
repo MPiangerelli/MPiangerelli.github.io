@@ -1,7 +1,7 @@
 ---
 layout: page
-title: TOPDRIM: Topology-Driven Methods for Complex Systems
-description: FP7 FET project (2012–2015) on topological methods for the dynamics of multilevel complex systems.
+title: "TOPDRIM"
+description: "Topology-Driven Methods for Complex Systems. FP7 FET project (2012–2015) on topological methods for the dynamics of multilevel complex systems."
 importance: 14
 ---
 

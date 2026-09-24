@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Da.Re.: Data Science Pathways to Re-imagine Education
-description: Erasmus+ project (2016–2019) that designed a European Master's curriculum in Data Science.
+title: "Da.Re."
+description: "Data Science Pathways to Re-imagine Education. Erasmus+ project (2016–2019) that designed a European Master's curriculum in Data Science."
 importance: 12
 ---
 
