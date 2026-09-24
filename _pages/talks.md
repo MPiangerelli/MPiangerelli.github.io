@@ -8,6 +8,9 @@ nav_order: 5
 redirect_from:
   - /speaker/
   - /speaker.html
+feature_image: /assets/img/headers/merc.jpg
+feature_painting: "Mercurio passa davanti al Sole"
+feature_author: Giacomo Balla
 ---
 
 ## Invited talks

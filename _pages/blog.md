@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/
 title: blog
 nav: true
-nav_order: 8
+nav_order: 9
 redirect_from:
   - /blog/index2/
   - /categories/
@@ -17,6 +17,9 @@ pagination:
   trail:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
+feature_image: /assets/img/headers/licini-amalassunta.jpg
+feature_painting: "Amalassunta"
+feature_author: Osvaldo Licini
 ---
 
 <div class="post">

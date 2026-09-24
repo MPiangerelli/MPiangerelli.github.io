@@ -8,6 +8,9 @@ nav_order: 3
 horizontal: false
 redirect_from:
   - /projects.html
+feature_image: /assets/img/headers/balla.jpg
+feature_painting: "Forze di paesaggio + cocomero"
+feature_author: Giacomo Balla
 ---
 
 <!-- pages/projects.md -->

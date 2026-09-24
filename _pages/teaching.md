@@ -14,6 +14,9 @@ redirect_from:
   - /teaching1.html
   - /2024/05/16/Education@Unicam/
   - /2024/05/16/EducationAAU/
+feature_image: /assets/img/headers/boccioni-materia.jpg
+feature_painting: "Materia"
+feature_author: Umberto Boccioni
 ---
 
 ## Ph.D. courses

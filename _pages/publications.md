@@ -8,6 +8,9 @@ nav_order: 2
 redirect_from:
   - /research/
   - /research.html
+feature_image: /assets/img/headers/boccioni-dinamismo.jpg
+feature_painting: "Dinamismo di un footballer"
+feature_author: Umberto Boccioni
 ---
 
 My primary research field is unsupervised learning and data science, particularly for the dynamics of complex systems. I work on clustering, anomaly detection and drift adaptation for time series, using topological methods (topological data analysis) alongside deep learning, with applications in medicine, biology and manufacturing.

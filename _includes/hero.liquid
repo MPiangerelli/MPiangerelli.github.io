@@ -1,0 +1,12 @@
+{%- comment -%} Full-width painting banner, restored from the previous Alembic site. {%- endcomment -%}
+<div class="site-hero" style="background-image: url('{{ page.feature_image | relative_url }}')" role="img" aria-label="{{ page.feature_painting | default: 'Header image' }}">
+  {% if page.feature_painting %}
+    <span class="site-hero-credit">{{ page.feature_painting }}{% if page.feature_author %}, {{ page.feature_author }}{% endif %}</span>
+  {% endif %}
+</div>
+<style>
+  .site-hero { width: 100%; height: 320px; background-size: cover; background-position: center; position: relative; }
+  .site-hero-credit { position: absolute; right: 1rem; bottom: 0.6rem; font-size: 0.75rem; color: #fff; background: rgba(0, 0, 0, 0.5); padding: 0.15rem 0.5rem; border-radius: 0.25rem; }
+  .site-hero + .container { margin-top: 2rem !important; }
+  @media (max-width: 576px) { .site-hero { height: 200px; } }
+</style>
