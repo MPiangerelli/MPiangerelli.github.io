@@ -34,7 +34,9 @@
     <style id="site-custom-style">
       :root { --global-theme-color: #1e6fd9; --global-hover-color: #1e6fd9; --global-code-bg-color: rgba(30, 111, 217, 0.05); }
       html[data-theme=dark] { --global-theme-color: #4d9de0; --global-hover-color: #4d9de0; }
-      ul.timeline li { list-style: none; }
+      ul.timeline, ul.list-group, ol.list-group { list-style: none; padding-left: 0; margin-left: 0; }
+      ul.timeline li, li.list-group-item { list-style: none; }
+      li.list-group-item::marker { content: ''; }
     </style>
   </head>
 
