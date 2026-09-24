@@ -1,0 +1,9 @@
+{% comment %}
+  Local override of the al_cookie script include: same library, custom text.
+  This site sets no analytics or profiling cookies, so the banner is informational
+  (technical cookies / local storage only).
+{% endcomment %}
+<script defer src="{{ '/assets/vendor/cookieconsent/cookieconsent.umd.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/al_cookie/js/cookie-theme-sync.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/cookie-consent.js' | relative_url }}"></script>
+
