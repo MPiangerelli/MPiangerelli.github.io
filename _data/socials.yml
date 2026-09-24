@@ -1,0 +1,11 @@
+# Social links shown on the about page (order matters).
+# Keys follow the jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: marco.piangerelli@gmail.com
+orcid_id: 0000-0002-8545-3740
+scholar_userid: x5_c85IAAAAJ
+research_gate_profile: Marco_Piangerelli
+github_username: MPiangerelli
+linkedin_username: marco-piangerelli-08392768
+x_username: MPiangerelli
+cv_pdf: /assets/pdf/cv.pdf
+rss_icon: true
