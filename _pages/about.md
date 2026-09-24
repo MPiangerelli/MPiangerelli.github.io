@@ -10,10 +10,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>Vici &amp; C. S.p.A., R&amp;D Division</p>
-    <p>via Gutenberg 5</p>
-    <p>Santarcangelo di Romagna (RN), Italy</p>
 
 selected_papers: true
 social: true
