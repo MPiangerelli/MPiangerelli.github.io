@@ -3,199 +3,175 @@ cv:
   label: Adjunct Professor of Computer Science, University of Camerino · AI Engineer, Vici & C. S.p.A.
   email: marco.piangerelli@gmail.com
   location: Santarcangelo di Romagna (RN), Italy
-  image: ""
-  summary: >
-    Computer scientist and bioengineer working on machine learning, topological data analysis and complex systems,
-    with a focus on trustworthy AI, concept and data drift and interpretable learning methods for healthcare and manufacturing.
-    Ph.D. in Computer Science (University of Camerino, 2017). Full CV available as PDF.
+  image: ''
+  summary: 'Computer scientist and bioengineer working on machine learning, topological data analysis and complex systems, with a focus on trustworthy AI, concept and data drift and interpretable learning methods for healthcare and manufacturing. Ph.D. in Computer Science (University of Camerino, 2017). Full CV available as PDF.
 
+    '
   social_networks:
-    - network: GitHub
-      username: MPiangerelli
-    - network: LinkedIn
-      username: marco-piangerelli-08392768
-    - network: ORCID
-      username: 0000-0002-8545-3740
-
+  - network: GitHub
+    username: MPiangerelli
+  - network: LinkedIn
+    username: marco-piangerelli-08392768
+  - network: ORCID
+    username: 0000-0002-8545-3740
   sections:
     Education:
-      - institution: University of Camerino
-        location: Camerino, Italy
-        url: https://computerscience.unicam.it
-        area: Computer Science
-        studyType: Ph.D.
-        start_date: 2013
-        end_date: 2017
-        highlights:
-          - "Thesis: A topological classifier for detecting the emergence of anomalous synchronization in brain activity (supervisor Prof. Emanuela Merelli)."
-          - Collaboration with ab medica s.r.l. on an implantable device for detecting and controlling epileptic seizures.
-
-      - institution: Alma Mater Studiorum, University of Bologna
-        location: Bologna, Italy
-        url: https://www.unibo.it
-        area: Bioengineering
-        studyType: Master of Engineering
-        start_date: 2009
-        end_date: 2013
-        highlights:
-          - "Thesis: The effects of hypocalcemia on spatial alternans and ventricular fibrillation studied with optical mapping technique (supervisor Prof. Stefano Severi, co-supervisor Prof. Flavio Fenton)."
-          - Visiting Master student at Cornell University, Veterinary Medicine School (March–August 2012), supervisors Prof. Flavio Fenton and Prof. Robert Gilmour.
-
-      - institution: Politecnico di Milano
-        location: Milan, Italy
-        url: https://polimi.it
-        area: Biomedical Engineering
-        studyType: Bachelor of Engineering
-        start_date: 2003
-        end_date: 2009
-        highlights:
-          - "Thesis: Definizione di un protocollo per lo studio della deformazione delle labbra (supervisor Prof. Maria Gabriella Signorini)."
-
+    - institution: University of Camerino
+      location: Camerino
+      url: https://computerscience.unicam.it
+      area: Computer Science
+      studyType: Ph.D.
+      start_date: 2013
+      end_date: 2017
+      highlights:
+      - 'Thesis: A topological classifier for detecting the emergence of anomalous synchronization in brain activity (supervisor Prof. Emanuela Merelli).'
+      - Collaboration with ab medica s.r.l. on an implantable device for detecting and controlling epileptic seizures.
+    - institution: Alma Mater Studiorum, University of Bologna
+      location: Bologna
+      url: https://www.unibo.it
+      area: Bioengineering
+      studyType: Master of Engineering
+      start_date: 2009
+      end_date: 2013
+      highlights:
+      - 'Thesis: The effects of hypocalcemia on spatial alternans and ventricular fibrillation studied with optical mapping technique (supervisor Prof. Stefano Severi, co-supervisor Prof. Flavio Fenton).'
+      - Visiting Master student at Cornell University, Veterinary Medicine School (March–August 2012), supervisors Prof. Flavio Fenton and Prof. Robert Gilmour.
+    - institution: Politecnico di Milano
+      location: Milan
+      url: https://polimi.it
+      area: Biomedical Engineering
+      studyType: Bachelor of Engineering
+      start_date: 2003
+      end_date: 2009
+      highlights:
+      - 'Thesis: Definizione di un protocollo per lo studio della deformazione delle labbra (supervisor Prof. Maria Gabriella Signorini).'
     Experience:
-      - company: Vici & C. S.p.A.
-        position: AI Engineer, R&D Division
-        location: Santarcangelo di Romagna, Italy
-        start_date: 2025-02
-        end_date: present
-        summary: Machine learning and computer vision for optical metrology of precision mechanical parts.
-
-      - company: University of Camerino
-        position: Adjunct Professor (INF/01, Computer Science)
-        location: Camerino, Italy
-        start_date: 2019
-        end_date: present
-        summary: Machine Learning courses for the M.Sc. in Computer Science and the Ph.D. programme in Computer Science and Mathematics; supervision of Ph.D., Master's and Bachelor's theses.
-
-      - company: Bilancio CO2 Zero S.r.l.
-        position: Scientific Director of the RIAB project
-        location: Italy
-        start_date: 2025
-        end_date: present
-        summary: AI and computer vision for tele-rehabilitation.
-
-      - company: Addis Ababa University, Addis Ababa Institute of Technology
-        position: Visiting Researcher
-        location: Addis Ababa, Ethiopia
-        start_date: 2024-04
-        end_date: 2024-07
-        summary: Technology transfer on anomaly detection with unsupervised techniques; groundwork for a Memorandum of Understanding between the University of Camerino and Addis Ababa University.
-
-      - company: University of Camerino, School of Science and Technology
-        position: Research Fellow (INF/01, Computer Science)
-        location: Camerino, Italy
-        start_date: 2023-01
-        end_date: 2025-01
-
-      - company: University of Camerino, School of Science and Technology
-        position: Post-doctoral Researcher
-        location: Camerino, Italy
-        start_date: 2017-06
-        end_date: 2022-12
-        highlights:
-          - "2021–2022: Modelling and studying self-adaptive cyber-physical systems."
-          - "2018–2021: Algorithms for monitoring and predicting changes in the psycho-physical state of patients in rehabilitation for spinal injuries."
-          - "2017–2018: Algorithms and methods for the analysis of streaming and batch data for prediction, classification and clustering."
-
-      - company: Knoway Systems S.r.l. (University of Camerino spin-off)
-        position: Founding member
-        location: Camerino, Italy
-        start_date: 2018
-        end_date: present
-        summary: Customised software solutions for the digitisation of public administration and Industry 4.0 in SMEs, born from the e-government research group of the University of Camerino.
-
+    - company: Vici & C. S.p.A.
+      position: AI Engineer, R&D Division
+      location: Santarcangelo (RN)
+      start_date: 2025-02
+      end_date: present
+      summary: Machine learning and computer vision for optical metrology of precision mechanical parts.
+    - company: Bilancio CO2 Zero S.r.l.
+      position: Scientific Director of the RIAB project
+      location: Italy
+      start_date: 2025
+      end_date: present
+      summary: AI and computer vision for tele-rehabilitation.
+    - company: Addis Ababa University, Addis Ababa Institute of Technology
+      position: Visiting Researcher
+      location: Addis Ababa
+      start_date: 2024-04
+      end_date: 2024-07
+      summary: Technology transfer on anomaly detection with unsupervised techniques; groundwork for a Memorandum of Understanding between the University of Camerino and Addis Ababa University.
+    - company: University of Camerino, School of Science and Technology
+      position: Research Fellow (INF/01, Computer Science)
+      location: Camerino
+      start_date: 2023-01
+      end_date: 2025-01
+    - company: University of Camerino
+      position: Adjunct Professor (INF/01, Computer Science)
+      location: Camerino
+      start_date: 2019
+      end_date: present
+      summary: Machine Learning courses for the M.Sc. in Computer Science and the Ph.D. programme in Computer Science and Mathematics; supervision of Ph.D., Master's and Bachelor's theses.
+    - company: Knoway Systems S.r.l. (University of Camerino spin-off)
+      position: Founding member
+      location: Camerino
+      start_date: 2018
+      end_date: present
+      summary: Customised software solutions for the digitisation of public administration and Industry 4.0 in SMEs, born from the e-government research group of the University of Camerino.
+    - company: University of Camerino, School of Science and Technology
+      position: Post-doctoral Researcher
+      location: Camerino
+      start_date: 2017-06
+      end_date: 2022-12
+      highlights:
+      - '2021–2022: Modelling and studying self-adaptive cyber-physical systems.'
+      - '2018–2021: Algorithms for monitoring and predicting changes in the psycho-physical state of patients in rehabilitation for spinal injuries.'
+      - '2017–2018: Algorithms and methods for the analysis of streaming and batch data for prediction, classification and clustering.'
     Projects:
-      - name: RIAB (Bilancio CO2 Zero S.r.l.)
-        summary: ML/DL models for tele-rehabilitation. Scientific coordinator.
-        start_date: 2025
-        end_date: 2028
-      - name: Unicam 4 ACME (ACME Lab S.r.l.)
-        summary: ML/DL models for environmental monitoring that react and adapt to change. Member of the project board.
-        start_date: 2025
-        end_date: 2027
-      - name: Unicam 4 VICI, ML for Metrology (Vici & C. S.p.A.)
-        summary: ML/DL models to improve the accuracy of dimensional measurements of precision mechanical parts. Member of the project board.
-        start_date: 2024
-        end_date: 2027
-      - name: AI.EM, Artificial Intelligence Evolutive Machine (Nuova Simonelli Group S.p.A., Sigma S.p.A.)
-        summary: Adaptive AI for energy efficiency, waste reduction and human-machine interaction in smart manufacturing. Unicam research unit member.
-        start_date: 2022
-        end_date: 2025
-      - name: UNICAM 4 INGKA, Inventory Process Mining (IKEA IT Aktiebolag)
-        summary: Process mining and machine learning for large-scale inventory management. Responsible for the ML research.
-        start_date: 2022
-        end_date: 2024
-      - name: Syeew (Eidos S.r.l.) and Chatbot (Filippetti S.p.A.)
-        summary: Intelligent recommendation system for micro enterprises; NLP techniques for chatbots.
-        start_date: 2022
-        end_date: 2024
-      - name: MIRACLE (POR Marche FESR 2014/2020)
-        summary: Laboratory of excellence for home automation and connected living environments. Unicam research unit member.
-        start_date: 2019
-        end_date: 2022
-      - name: SIMPLE, Smart Manufacturing Machine with Predictive Lifetime Electronic maintenance (SIGMA S.p.A., Schnell S.p.A.)
-        summary: Predictive maintenance platform; unsupervised learning module.
-        start_date: 2019
-        end_date: 2022
-      - name: T.R.E.E., Tailored Rehabilitation for the Engagement and Empowerment of chronically disabled people (POR FESR Marche)
-        summary: Platform for personalised rehabilitation; behavioural analysis module.
-        start_date: 2017
-        end_date: 2020
-      - name: Lignans (Unicam Doctoral Candidates Research Grant)
-        summary: Data analysis and clustering of laboratory data on lignan mixtures. Coordinator of the Computer Science research unit.
-        start_date: 2017
-        end_date: 2019
-      - name: Da.Re., Data science pathways to re-imagine education (Erasmus+)
-        summary: European Master's curriculum in Data Science. Unicam research unit member.
-        start_date: 2016
-        end_date: 2019
-      - name: MATREND (Unicam FAR)
-        summary: Materials and technologies for renewable energy in smart city districts. Computer Science research unit member.
-        start_date: 2014
-        end_date: 2017
-      - name: TOPDRIM, Topology Driven Methods for Complex Systems (FP7-ICT-2011-8)
-        summary: Topological methods for the dynamics of multilevel complex systems. Unicam research unit member.
-        start_date: 2012
-        end_date: 2015
-
+    - name: RIAB (Bilancio CO2 Zero S.r.l.)
+      summary: ML/DL models for tele-rehabilitation. Scientific coordinator.
+      start_date: 2025
+      end_date: 2028
+    - name: Unicam 4 ACME (ACME Lab S.r.l.)
+      summary: ML/DL models for environmental monitoring that react and adapt to change. Member of the project board.
+      start_date: 2025
+      end_date: 2027
+    - name: Unicam 4 VICI, ML for Metrology (Vici & C. S.p.A.)
+      summary: ML/DL models to improve the accuracy of dimensional measurements of precision mechanical parts. Member of the project board.
+      start_date: 2024
+      end_date: 2027
+    - name: AI.EM, Artificial Intelligence Evolutive Machine (Nuova Simonelli Group S.p.A., Sigma S.p.A.)
+      summary: Adaptive AI for energy efficiency, waste reduction and human-machine interaction in smart manufacturing. Unicam research unit member.
+      start_date: 2022
+      end_date: 2025
+    - name: UNICAM 4 INGKA, Inventory Process Mining (IKEA IT Aktiebolag)
+      summary: Process mining and machine learning for large-scale inventory management. Responsible for the ML research.
+      start_date: 2022
+      end_date: 2024
+    - name: Syeew (Eidos S.r.l.) and Chatbot (Filippetti S.p.A.)
+      summary: Intelligent recommendation system for micro enterprises; NLP techniques for chatbots.
+      start_date: 2022
+      end_date: 2024
+    - name: MIRACLE (POR Marche FESR 2014/2020)
+      summary: Laboratory of excellence for home automation and connected living environments. Unicam research unit member.
+      start_date: 2019
+      end_date: 2022
+    - name: SIMPLE, Smart Manufacturing Machine with Predictive Lifetime Electronic maintenance (SIGMA S.p.A., Schnell S.p.A.)
+      summary: Predictive maintenance platform; unsupervised learning module.
+      start_date: 2019
+      end_date: 2022
+    - name: T.R.E.E., Tailored Rehabilitation for the Engagement and Empowerment of chronically disabled people (POR FESR Marche)
+      summary: Platform for personalised rehabilitation; behavioural analysis module.
+      start_date: 2017
+      end_date: 2020
+    - name: Lignans (Unicam Doctoral Candidates Research Grant)
+      summary: Data analysis and clustering of laboratory data on lignan mixtures. Coordinator of the Computer Science research unit.
+      start_date: 2017
+      end_date: 2019
+    - name: Da.Re., Data science pathways to re-imagine education (Erasmus+)
+      summary: European Master's curriculum in Data Science. Unicam research unit member.
+      start_date: 2016
+      end_date: 2019
+    - name: MATREND (Unicam FAR)
+      summary: Materials and technologies for renewable energy in smart city districts. Computer Science research unit member.
+      start_date: 2014
+      end_date: 2017
+    - name: TOPDRIM, Topology Driven Methods for Complex Systems (FP7-ICT-2011-8)
+      summary: Topological methods for the dynamics of multilevel complex systems. Unicam research unit member.
+      start_date: 2012
+      end_date: 2015
     Service:
-      - company: Editorial boards
-        position: Member
-        summary: "Intelligenza Artificiale (Sage); PeerJ Computer Science; Applied Computational Intelligence and Soft Computing (Wiley); Frontiers in Smart Manufacturing (EnPress)."
-      - company: Guest editor
-        position: Entropy (MDPI) special issues
-        summary: "Information Theory in Artificial Intelligence; Information Theory for Interpretable Machine Learning; Topological Data Analysis Meets Information Theory."
-      - company: Workshop organisation (programme co-chair)
-        position: NEXT-MET (IMEKO 2027), SynDAiTE-II and SCL (ECML-PKDD 2026), SynDAiTE (ECML-PKDD 2025), DELTA (KDD 2024), E3WSN (AINA 2023)
-        summary: Post-proceedings editor of "Discovering Drift Phenomena in Evolving Landscapes" (LNCS, Springer).
-      - company: Programme committees
-        position: Member
-        summary: "S2RAI track at SAC 2026; AAAI-MAKE Spring Symposia 2022–2025; SACAIR 2023 and 2024; DESRIST 2023; ATDA 2019; WOA 2018."
-      - company: European Commission
-        position: Expert evaluator
-        summary: "Horizon Europe Marie Skłodowska-Curie Actions, Doctoral Networks (HORIZON-MSCA-2024-DN-01 and HORIZON-MSCA-2025-DN-01)."
-      - company: Journal reviewer
-        position: Referee
-        summary: "IEEE TPAMI, IEEE TKDE, IEEE TNNLS, IEEE Sensors Journal, IEEE Transactions on Industrial Informatics, IEEE Transactions on Information Theory, Applied Intelligence, Neurocomputing, Journal of Intelligent Manufacturing, Internet of Things, Computers in Biology and Medicine, Chaos Solitons and Fractals, Data Science and Engineering, EPJ Data Science, Scientific Reports, iScience, PLOS ONE, BMC Public Health, Intelligent Data Analysis, Epilepsy Research, Entropy, BDCC."
-      - company: University of Camerino
-        position: Representative of research fellows in the Council of the School of Science and Technology
-        start_date: 2021
-        end_date: 2023
-
+    - label: Editorial boards
+      details: Intelligenza Artificiale (Sage); PeerJ Computer Science; Applied Computational Intelligence and Soft Computing (Wiley); Frontiers in Smart Manufacturing (EnPress).
+    - label: Guest editor
+      details: 'Entropy (MDPI) special issues: Information Theory in Artificial Intelligence; Information Theory for Interpretable Machine Learning; Topological Data Analysis Meets Information Theory.'
+    - label: Workshop co-chair
+      details: NEXT-MET (IMEKO 2027); SynDAiTE-II and SCL (ECML-PKDD 2026); SynDAiTE (ECML-PKDD 2025); DELTA (KDD 2024); E3WSN (AINA 2023). Editor of the LNCS post-proceedings "Discovering Drift Phenomena in Evolving Landscapes" (Springer, 2025).
+    - label: Programme committees
+      details: S2RAI track at ACM SAC 2026; AAAI-MAKE Spring Symposia 2022-2025; SACAIR 2023 and 2024; DESRIST 2023; ATDA 2019; WOA 2018.
+    - label: Expert evaluator
+      details: European Commission, Horizon Europe MSCA Doctoral Networks (2024 and 2025 calls).
+    - label: Reviewer
+      details: IEEE TPAMI, IEEE TKDE, IEEE TNNLS, IEEE Sensors Journal, IEEE Transactions on Industrial Informatics, IEEE Transactions on Information Theory, Applied Intelligence, Neurocomputing, Journal of Intelligent Manufacturing, Internet of Things, Computers in Biology and Medicine, Chaos Solitons and Fractals, Data Science and Engineering, EPJ Data Science, Scientific Reports, iScience, PLOS ONE, BMC Public Health, Intelligent Data Analysis, Epilepsy Research, Entropy, BDCC.
+    - label: Institutional roles
+      details: Representative of research fellows in the Council of the School of Science and Technology, University of Camerino (2021-2023).
     Skills:
-      - name: Machine learning
-        icon: fa-solid fa-brain
-        keywords: "Supervised, unsupervised and reinforcement learning; deep learning; vision transformers; graph neural networks; small language models; online clustering; anomaly detection; concept and data drift"
-      - name: Topological data analysis
-        icon: fa-solid fa-shapes
-        keywords: "Persistent homology, persistent entropy, simplicial complexes, time series and graph characterisation"
-      - name: Complex systems and modelling
-        icon: fa-solid fa-diagram-project
-        keywords: "Dynamical systems, epidemic models, self-adaptive systems, process mining"
-      - name: Application domains
-        icon: fa-solid fa-industry
-        keywords: "Healthcare and neuroscience (EEG, epilepsy, rehabilitation), smart manufacturing and predictive maintenance, optical metrology, public administration event logs"
-
+    - name: Machine learning
+      icon: fa-solid fa-brain
+      keywords: Supervised, unsupervised and reinforcement learning; deep learning; vision transformers; graph neural networks; small language models; online clustering; anomaly detection; concept and data drift
+    - name: Topological data analysis
+      icon: fa-solid fa-shapes
+      keywords: Persistent homology, persistent entropy, simplicial complexes, time series and graph characterisation
+    - name: Complex systems and modelling
+      icon: fa-solid fa-diagram-project
+      keywords: Dynamical systems, epidemic models, self-adaptive systems, process mining
+    - name: Application domains
+      icon: fa-solid fa-industry
+      keywords: Healthcare and neuroscience (EEG, epilepsy, rehabilitation), smart manufacturing and predictive maintenance, optical metrology, public administration event logs
     Interests:
-      - name: Research interests
-        icon: fa-solid fa-tag
-        keywords: "Trustworthy AI, interpretability, concept drift, topological data analysis, complex systems, machine learning for industry and medicine"
+    - name: Research interests
+      icon: fa-solid fa-tag
+      keywords: Trustworthy AI, interpretability, concept drift, topological data analysis, complex systems, machine learning for industry and medicine
